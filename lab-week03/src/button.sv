@@ -48,8 +48,11 @@ always_ff @(posedge clk_0s25) begin
         on_release: begin
             if (!bt[0])
                 state = on_switch;
-            else begin
-                if (switch == 0) begin
+        end
+
+        on_switch: begin            
+            state = of_press;
+            if (switch == 0) begin
                     if (duty_cycle_red != 9)
                         duty_cycle_red <= duty_cycle_red + 1;
                     else
@@ -60,15 +63,6 @@ always_ff @(posedge clk_0s25) begin
                     else
                         duty_cycle_blue <= 0;
                 end
-
-            end
-            
-            
-        end
-
-        on_switch: begin            
-            state = of_press;
-            
         end
 
         of_press: begin
@@ -80,7 +74,10 @@ always_ff @(posedge clk_0s25) begin
         of_release: begin
             if (!bt[0])
                 state = of_switch;
-            else begin
+        end
+
+        of_switch: begin
+                state = on_press;
                 if (switch == 0) begin
                     if (duty_cycle_red != 9)
                         duty_cycle_red <= duty_cycle_red + 1;
@@ -92,12 +89,6 @@ always_ff @(posedge clk_0s25) begin
                     else
                         duty_cycle_blue <= 0;
                 end
-
-            end
-        end
-
-        of_switch: begin
-                state = on_press;
         end
     endcase
     duty_cycle <= (switch) ? duty_cycle_blue : duty_cycle_red;

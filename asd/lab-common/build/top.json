@@ -23,7 +23,7 @@
         }
       },
       "cells": {
-        "$specify$3039": {
+        "$specify$3021": {
           "hide_name": 1,
           "type": "$specify2",
           "parameters": {
@@ -21684,7 +21684,7 @@
           "hide_name": 0,
           "type": "LUT4",
           "parameters": {
-            "INIT": "0000100000100000"
+            "INIT": "0011011011011011"
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
@@ -21698,7 +21698,7 @@
             "Z": "output"
           },
           "connections": {
-            "A": [ 4 ],
+            "A": [ 5 ],
             "B": [ 16 ],
             "C": [ 17 ],
             "D": [ 18 ],
@@ -21724,188 +21724,13 @@
           },
           "connections": {
             "A": [ 4 ],
-            "B": [ 16 ],
-            "C": [ 17 ],
-            "D": [ 18 ],
-            "Z": [ 20 ]
-          }
-        },
-        "bt_LUT4_A_2": {
-          "hide_name": 0,
-          "type": "LUT4",
-          "parameters": {
-            "INIT": "0011011011011011"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:128.32-129.56"
-          },
-          "port_directions": {
-            "A": "input",
-            "B": "input",
-            "C": "input",
-            "D": "input",
-            "Z": "output"
-          },
-          "connections": {
-            "A": [ 5 ],
-            "B": [ 21 ],
-            "C": [ 22 ],
-            "D": [ 23 ],
-            "Z": [ 24 ]
-          }
-        },
-        "bt_LUT4_A_Z_LUT4_D": {
-          "hide_name": 0,
-          "type": "LUT4",
-          "parameters": {
-            "INIT": "0000001000000000"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:128.32-129.56"
-          },
-          "port_directions": {
-            "A": "input",
-            "B": "input",
-            "C": "input",
-            "D": "input",
-            "Z": "output"
-          },
-          "connections": {
-            "A": [ 25 ],
-            "B": [ 26 ],
-            "C": [ 27 ],
-            "D": [ 19 ],
-            "Z": [ 28 ]
-          }
-        },
-        "bt_LUT4_A_Z_LUT4_D_1": {
-          "hide_name": 0,
-          "type": "LUT4",
-          "parameters": {
-            "INIT": "0000111100000000"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:119.33-120.56"
-          },
-          "port_directions": {
-            "A": "input",
-            "B": "input",
-            "C": "input",
-            "D": "input",
-            "Z": "output"
-          },
-          "connections": {
-            "A": [ "0" ],
-            "B": [ "0" ],
-            "C": [ 29 ],
-            "D": [ 19 ],
-            "Z": [ 30 ]
-          }
-        },
-        "bt_LUT4_A_Z_LUT4_D_2": {
-          "hide_name": 0,
-          "type": "LUT4",
-          "parameters": {
-            "INIT": "0000001000000000"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:128.32-129.56"
-          },
-          "port_directions": {
-            "A": "input",
-            "B": "input",
-            "C": "input",
-            "D": "input",
-            "Z": "output"
-          },
-          "connections": {
-            "A": [ 31 ],
-            "B": [ 32 ],
-            "C": [ 33 ],
-            "D": [ 19 ],
-            "Z": [ 34 ]
-          }
-        },
-        "bt_LUT4_A_Z_LUT4_D_3": {
-          "hide_name": 0,
-          "type": "LUT4",
-          "parameters": {
-            "INIT": "1111000000000000"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:119.33-120.56"
-          },
-          "port_directions": {
-            "A": "input",
-            "B": "input",
-            "C": "input",
-            "D": "input",
-            "Z": "output"
-          },
-          "connections": {
-            "A": [ "0" ],
-            "B": [ "0" ],
-            "C": [ 29 ],
-            "D": [ 19 ],
-            "Z": [ 35 ]
-          }
-        },
-        "bt_LUT4_A_Z_LUT4_D_Z_LUT4_D": {
-          "hide_name": 0,
-          "type": "LUT4",
-          "parameters": {
-            "INIT": "1111001111111111"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:124.33-125.56"
-          },
-          "port_directions": {
-            "A": "input",
-            "B": "input",
-            "C": "input",
-            "D": "input",
-            "Z": "output"
-          },
-          "connections": {
-            "A": [ "0" ],
-            "B": [ 36 ],
-            "C": [ 29 ],
-            "D": [ 28 ],
-            "Z": [ 37 ]
+            "B": [ 20 ],
+            "C": [ 21 ],
+            "D": [ 22 ],
+            "Z": [ 23 ]
           }
         },
         "dip_LUT4_B": {
-          "hide_name": 0,
-          "type": "LUT4",
-          "parameters": {
-            "INIT": "1111001111000000"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:124.33-125.56"
-          },
-          "port_directions": {
-            "A": "input",
-            "B": "input",
-            "C": "input",
-            "D": "input",
-            "Z": "output"
-          },
-          "connections": {
-            "A": [ "0" ],
-            "B": [ 6 ],
-            "C": [ 31 ],
-            "D": [ 25 ],
-            "Z": [ 38 ]
-          }
-        },
-        "dip_LUT4_B_1": {
           "hide_name": 0,
           "type": "LUT4",
           "parameters": {
@@ -21925,9 +21750,34 @@
           "connections": {
             "A": [ "0" ],
             "B": [ 6 ],
-            "C": [ 36 ],
-            "D": [ 39 ],
-            "Z": [ 40 ]
+            "C": [ 24 ],
+            "D": [ 25 ],
+            "Z": [ 26 ]
+          }
+        },
+        "dip_LUT4_B_1": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1111001111000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:124.33-125.56"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "C": "input",
+            "D": "input",
+            "Z": "output"
+          },
+          "connections": {
+            "A": [ "0" ],
+            "B": [ 6 ],
+            "C": [ 27 ],
+            "D": [ 28 ],
+            "Z": [ 29 ]
           }
         },
         "dip_LUT4_B_2": {
@@ -21950,16 +21800,16 @@
           "connections": {
             "A": [ "0" ],
             "B": [ 6 ],
-            "C": [ 33 ],
-            "D": [ 27 ],
-            "Z": [ 41 ]
+            "C": [ 30 ],
+            "D": [ 31 ],
+            "Z": [ 32 ]
           }
         },
         "dip_LUT4_B_3": {
           "hide_name": 0,
           "type": "LUT4",
           "parameters": {
-            "INIT": "1111001111000000"
+            "INIT": "1111110000110000"
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
@@ -21975,9 +21825,9 @@
           "connections": {
             "A": [ "0" ],
             "B": [ 6 ],
-            "C": [ 32 ],
-            "D": [ 26 ],
-            "Z": [ 42 ]
+            "C": [ 33 ],
+            "D": [ 34 ],
+            "Z": [ 35 ]
           }
         },
         "led_LUT4_Z": {
@@ -22000,8 +21850,8 @@
           "connections": {
             "A": [ "0" ],
             "B": [ "0" ],
-            "C": [ 29 ],
-            "D": [ 43 ],
+            "C": [ 36 ],
+            "D": [ 37 ],
             "Z": [ 7 ]
           }
         },
@@ -22025,9 +21875,34 @@
           "connections": {
             "A": [ "0" ],
             "B": [ "0" ],
-            "C": [ 29 ],
-            "D": [ 43 ],
+            "C": [ 36 ],
+            "D": [ 37 ],
             "Z": [ 8 ]
+          }
+        },
+        "led_LUT4_Z_C_LUT4_Z": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0011110000001100"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:124.33-125.56"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "C": "input",
+            "D": "input",
+            "Z": "output"
+          },
+          "connections": {
+            "A": [ "0" ],
+            "B": [ 16 ],
+            "C": [ 17 ],
+            "D": [ 18 ],
+            "Z": [ 36 ]
           }
         },
         "led_LUT4_Z_D_PFUMX_Z": {
@@ -22046,17 +21921,17 @@
             "Z": "output"
           },
           "connections": {
-            "ALUT": [ 44 ],
-            "BLUT": [ 45 ],
-            "C0": [ 46 ],
-            "Z": [ 43 ]
+            "ALUT": [ 38 ],
+            "BLUT": [ 39 ],
+            "C0": [ 40 ],
+            "Z": [ 37 ]
           }
         },
         "led_LUT4_Z_D_PFUMX_Z_ALUT_LUT4_Z": {
           "hide_name": 0,
           "type": "LUT4",
           "parameters": {
-            "INIT": "1111000011111111"
+            "INIT": "1111111100001111"
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
@@ -22072,16 +21947,16 @@
           "connections": {
             "A": [ "0" ],
             "B": [ "0" ],
-            "C": [ 47 ],
-            "D": [ 48 ],
-            "Z": [ 44 ]
+            "C": [ 41 ],
+            "D": [ 42 ],
+            "Z": [ 38 ]
           }
         },
         "led_LUT4_Z_D_PFUMX_Z_BLUT_LUT4_Z": {
           "hide_name": 0,
           "type": "LUT4",
           "parameters": {
-            "INIT": "0010001010110010"
+            "INIT": "0100010011010100"
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
@@ -22095,11 +21970,11 @@
             "Z": "output"
           },
           "connections": {
-            "A": [ 47 ],
-            "B": [ 48 ],
-            "C": [ 49 ],
-            "D": [ 50 ],
-            "Z": [ 45 ]
+            "A": [ 41 ],
+            "B": [ 42 ],
+            "C": [ 43 ],
+            "D": [ 44 ],
+            "Z": [ 39 ]
           }
         },
         "led_LUT4_Z_D_PFUMX_Z_C0_PFUMX_Z": {
@@ -22118,10 +21993,10 @@
             "Z": "output"
           },
           "connections": {
-            "ALUT": [ 51 ],
-            "BLUT": [ 52 ],
-            "C0": [ 53 ],
-            "Z": [ 46 ]
+            "ALUT": [ 45 ],
+            "BLUT": [ 46 ],
+            "C0": [ 47 ],
+            "Z": [ 40 ]
           }
         },
         "led_LUT4_Z_D_PFUMX_Z_C0_PFUMX_Z_ALUT_LUT4_Z": {
@@ -22146,14 +22021,14 @@
             "B": [ "0" ],
             "C": [ "0" ],
             "D": [ "0" ],
-            "Z": [ 51 ]
+            "Z": [ 45 ]
           }
         },
         "led_LUT4_Z_D_PFUMX_Z_C0_PFUMX_Z_BLUT_LUT4_Z": {
           "hide_name": 0,
           "type": "LUT4",
           "parameters": {
-            "INIT": "1011101100101011"
+            "INIT": "1101110101001101"
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
@@ -22167,11 +22042,11 @@
             "Z": "output"
           },
           "connections": {
-            "A": [ 54 ],
-            "B": [ 55 ],
-            "C": [ 56 ],
-            "D": [ 57 ],
-            "Z": [ 52 ]
+            "A": [ 48 ],
+            "B": [ 49 ],
+            "C": [ 50 ],
+            "D": [ 51 ],
+            "Z": [ 46 ]
           }
         },
         "led_LUT4_Z_D_PFUMX_Z_C0_PFUMX_Z_C0_LUT4_Z": {
@@ -22194,12 +22069,99 @@
           "connections": {
             "A": [ "0" ],
             "B": [ "0" ],
-            "C": [ 49 ],
-            "D": [ 50 ],
-            "Z": [ 53 ]
+            "C": [ 43 ],
+            "D": [ 44 ],
+            "Z": [ 47 ]
           }
         },
         "rst_TRELLIS_FF_LSR": {
+          "hide_name": 0,
+          "type": "TRELLIS_FF",
+          "parameters": {
+            "CEMUX": "1 ",
+            "CLKMUX": "CLK",
+            "GSR": "DISABLED",
+            "LSRMUX": "LSR",
+            "REGSET": "RESET",
+            "SRMODE": "ASYNC"
+          },
+          "attributes": {
+            "always_ff": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "src/div.sv:23.1-29.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:63.157-63.208"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "DI": "input",
+            "LSR": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "CLK": [ 2 ],
+            "DI": [ 52 ],
+            "LSR": [ 3 ],
+            "Q": [ 53 ]
+          }
+        },
+        "rst_TRELLIS_FF_LSR_1": {
+          "hide_name": 0,
+          "type": "TRELLIS_FF",
+          "parameters": {
+            "CEMUX": "1 ",
+            "CLKMUX": "CLK",
+            "GSR": "DISABLED",
+            "LSRMUX": "LSR",
+            "REGSET": "RESET",
+            "SRMODE": "ASYNC"
+          },
+          "attributes": {
+            "always_ff": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "src/div.sv:23.1-29.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:63.157-63.208"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "DI": "input",
+            "LSR": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "CLK": [ 2 ],
+            "DI": [ 54 ],
+            "LSR": [ 3 ],
+            "Q": [ 55 ]
+          }
+        },
+        "rst_TRELLIS_FF_LSR_10": {
+          "hide_name": 0,
+          "type": "TRELLIS_FF",
+          "parameters": {
+            "CEMUX": "1 ",
+            "CLKMUX": "CLK",
+            "GSR": "DISABLED",
+            "LSRMUX": "LSR",
+            "REGSET": "RESET",
+            "SRMODE": "ASYNC"
+          },
+          "attributes": {
+            "always_ff": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "src/div.sv:23.1-29.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:63.157-63.208"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "DI": "input",
+            "LSR": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "CLK": [ 2 ],
+            "DI": [ 56 ],
+            "LSR": [ 3 ],
+            "Q": [ 57 ]
+          }
+        },
+        "rst_TRELLIS_FF_LSR_11": {
           "hide_name": 0,
           "type": "TRELLIS_FF",
           "parameters": {
@@ -22228,7 +22190,7 @@
             "Q": [ 59 ]
           }
         },
-        "rst_TRELLIS_FF_LSR_1": {
+        "rst_TRELLIS_FF_LSR_12": {
           "hide_name": 0,
           "type": "TRELLIS_FF",
           "parameters": {
@@ -22257,7 +22219,7 @@
             "Q": [ 61 ]
           }
         },
-        "rst_TRELLIS_FF_LSR_10": {
+        "rst_TRELLIS_FF_LSR_13": {
           "hide_name": 0,
           "type": "TRELLIS_FF",
           "parameters": {
@@ -22286,7 +22248,7 @@
             "Q": [ 63 ]
           }
         },
-        "rst_TRELLIS_FF_LSR_11": {
+        "rst_TRELLIS_FF_LSR_14": {
           "hide_name": 0,
           "type": "TRELLIS_FF",
           "parameters": {
@@ -22315,7 +22277,7 @@
             "Q": [ 65 ]
           }
         },
-        "rst_TRELLIS_FF_LSR_12": {
+        "rst_TRELLIS_FF_LSR_15": {
           "hide_name": 0,
           "type": "TRELLIS_FF",
           "parameters": {
@@ -22344,7 +22306,7 @@
             "Q": [ 67 ]
           }
         },
-        "rst_TRELLIS_FF_LSR_13": {
+        "rst_TRELLIS_FF_LSR_16": {
           "hide_name": 0,
           "type": "TRELLIS_FF",
           "parameters": {
@@ -22373,7 +22335,7 @@
             "Q": [ 69 ]
           }
         },
-        "rst_TRELLIS_FF_LSR_14": {
+        "rst_TRELLIS_FF_LSR_17": {
           "hide_name": 0,
           "type": "TRELLIS_FF",
           "parameters": {
@@ -22402,7 +22364,7 @@
             "Q": [ 71 ]
           }
         },
-        "rst_TRELLIS_FF_LSR_15": {
+        "rst_TRELLIS_FF_LSR_18": {
           "hide_name": 0,
           "type": "TRELLIS_FF",
           "parameters": {
@@ -22431,7 +22393,7 @@
             "Q": [ 73 ]
           }
         },
-        "rst_TRELLIS_FF_LSR_16": {
+        "rst_TRELLIS_FF_LSR_19": {
           "hide_name": 0,
           "type": "TRELLIS_FF",
           "parameters": {
@@ -22460,7 +22422,7 @@
             "Q": [ 75 ]
           }
         },
-        "rst_TRELLIS_FF_LSR_17": {
+        "rst_TRELLIS_FF_LSR_2": {
           "hide_name": 0,
           "type": "TRELLIS_FF",
           "parameters": {
@@ -22489,7 +22451,7 @@
             "Q": [ 77 ]
           }
         },
-        "rst_TRELLIS_FF_LSR_18": {
+        "rst_TRELLIS_FF_LSR_20": {
           "hide_name": 0,
           "type": "TRELLIS_FF",
           "parameters": {
@@ -22518,7 +22480,7 @@
             "Q": [ 79 ]
           }
         },
-        "rst_TRELLIS_FF_LSR_19": {
+        "rst_TRELLIS_FF_LSR_21": {
           "hide_name": 0,
           "type": "TRELLIS_FF",
           "parameters": {
@@ -22547,7 +22509,7 @@
             "Q": [ 81 ]
           }
         },
-        "rst_TRELLIS_FF_LSR_2": {
+        "rst_TRELLIS_FF_LSR_22": {
           "hide_name": 0,
           "type": "TRELLIS_FF",
           "parameters": {
@@ -22576,7 +22538,7 @@
             "Q": [ 83 ]
           }
         },
-        "rst_TRELLIS_FF_LSR_20": {
+        "rst_TRELLIS_FF_LSR_3": {
           "hide_name": 0,
           "type": "TRELLIS_FF",
           "parameters": {
@@ -22605,7 +22567,7 @@
             "Q": [ 85 ]
           }
         },
-        "rst_TRELLIS_FF_LSR_21": {
+        "rst_TRELLIS_FF_LSR_4": {
           "hide_name": 0,
           "type": "TRELLIS_FF",
           "parameters": {
@@ -22634,7 +22596,7 @@
             "Q": [ 87 ]
           }
         },
-        "rst_TRELLIS_FF_LSR_22": {
+        "rst_TRELLIS_FF_LSR_5": {
           "hide_name": 0,
           "type": "TRELLIS_FF",
           "parameters": {
@@ -22663,7 +22625,7 @@
             "Q": [ 89 ]
           }
         },
-        "rst_TRELLIS_FF_LSR_3": {
+        "rst_TRELLIS_FF_LSR_6": {
           "hide_name": 0,
           "type": "TRELLIS_FF",
           "parameters": {
@@ -22692,7 +22654,7 @@
             "Q": [ 91 ]
           }
         },
-        "rst_TRELLIS_FF_LSR_4": {
+        "rst_TRELLIS_FF_LSR_7": {
           "hide_name": 0,
           "type": "TRELLIS_FF",
           "parameters": {
@@ -22721,7 +22683,7 @@
             "Q": [ 93 ]
           }
         },
-        "rst_TRELLIS_FF_LSR_5": {
+        "rst_TRELLIS_FF_LSR_8": {
           "hide_name": 0,
           "type": "TRELLIS_FF",
           "parameters": {
@@ -22750,7 +22712,7 @@
             "Q": [ 95 ]
           }
         },
-        "rst_TRELLIS_FF_LSR_6": {
+        "rst_TRELLIS_FF_LSR_9": {
           "hide_name": 0,
           "type": "TRELLIS_FF",
           "parameters": {
@@ -22779,119 +22741,7 @@
             "Q": [ 97 ]
           }
         },
-        "rst_TRELLIS_FF_LSR_7": {
-          "hide_name": 0,
-          "type": "TRELLIS_FF",
-          "parameters": {
-            "CEMUX": "1 ",
-            "CLKMUX": "CLK",
-            "GSR": "DISABLED",
-            "LSRMUX": "LSR",
-            "REGSET": "RESET",
-            "SRMODE": "ASYNC"
-          },
-          "attributes": {
-            "always_ff": "00000000000000000000000000000001",
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/div.sv:23.1-29.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:63.157-63.208"
-          },
-          "port_directions": {
-            "CLK": "input",
-            "DI": "input",
-            "LSR": "input",
-            "Q": "output"
-          },
-          "connections": {
-            "CLK": [ 2 ],
-            "DI": [ 98 ],
-            "LSR": [ 3 ],
-            "Q": [ 99 ]
-          }
-        },
-        "rst_TRELLIS_FF_LSR_8": {
-          "hide_name": 0,
-          "type": "TRELLIS_FF",
-          "parameters": {
-            "CEMUX": "1 ",
-            "CLKMUX": "CLK",
-            "GSR": "DISABLED",
-            "LSRMUX": "LSR",
-            "REGSET": "RESET",
-            "SRMODE": "ASYNC"
-          },
-          "attributes": {
-            "always_ff": "00000000000000000000000000000001",
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/div.sv:23.1-29.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:63.157-63.208"
-          },
-          "port_directions": {
-            "CLK": "input",
-            "DI": "input",
-            "LSR": "input",
-            "Q": "output"
-          },
-          "connections": {
-            "CLK": [ 2 ],
-            "DI": [ 100 ],
-            "LSR": [ 3 ],
-            "Q": [ 101 ]
-          }
-        },
-        "rst_TRELLIS_FF_LSR_9": {
-          "hide_name": 0,
-          "type": "TRELLIS_FF",
-          "parameters": {
-            "CEMUX": "1 ",
-            "CLKMUX": "CLK",
-            "GSR": "DISABLED",
-            "LSRMUX": "LSR",
-            "REGSET": "RESET",
-            "SRMODE": "ASYNC"
-          },
-          "attributes": {
-            "always_ff": "00000000000000000000000000000001",
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/div.sv:23.1-29.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:63.157-63.208"
-          },
-          "port_directions": {
-            "CLK": "input",
-            "DI": "input",
-            "LSR": "input",
-            "Q": "output"
-          },
-          "connections": {
-            "CLK": [ 2 ],
-            "DI": [ 102 ],
-            "LSR": [ 3 ],
-            "Q": [ 103 ]
-          }
-        },
         "seg7_LUT4_Z": {
-          "hide_name": 0,
-          "type": "LUT4",
-          "parameters": {
-            "INIT": "0111111101100111"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:128.32-129.56"
-          },
-          "port_directions": {
-            "A": "input",
-            "B": "input",
-            "C": "input",
-            "D": "input",
-            "Z": "output"
-          },
-          "connections": {
-            "A": [ 104 ],
-            "B": [ 105 ],
-            "C": [ 106 ],
-            "D": [ 107 ],
-            "Z": [ 13 ]
-          }
-        },
-        "seg7_LUT4_Z_1": {
           "hide_name": 0,
           "type": "LUT4",
           "parameters": {
@@ -22909,64 +22759,14 @@
             "Z": "output"
           },
           "connections": {
-            "A": [ 104 ],
-            "B": [ 105 ],
-            "C": [ 106 ],
-            "D": [ 107 ],
+            "A": [ 98 ],
+            "B": [ 99 ],
+            "C": [ 100 ],
+            "D": [ 101 ],
             "Z": [ 10 ]
           }
         },
-        "seg7_LUT4_Z_2": {
-          "hide_name": 0,
-          "type": "LUT4",
-          "parameters": {
-            "INIT": "0101101100110111"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:128.32-129.56"
-          },
-          "port_directions": {
-            "A": "input",
-            "B": "input",
-            "C": "input",
-            "D": "input",
-            "Z": "output"
-          },
-          "connections": {
-            "A": [ 104 ],
-            "B": [ 105 ],
-            "C": [ 106 ],
-            "D": [ 107 ],
-            "Z": [ 14 ]
-          }
-        },
-        "seg7_LUT4_Z_3": {
-          "hide_name": 0,
-          "type": "LUT4",
-          "parameters": {
-            "INIT": "1101011011111011"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:128.32-129.56"
-          },
-          "port_directions": {
-            "A": "input",
-            "B": "input",
-            "C": "input",
-            "D": "input",
-            "Z": "output"
-          },
-          "connections": {
-            "A": [ 104 ],
-            "B": [ 105 ],
-            "C": [ 106 ],
-            "D": [ 107 ],
-            "Z": [ 15 ]
-          }
-        },
-        "seg7_LUT4_Z_4": {
+        "seg7_LUT4_Z_1": {
           "hide_name": 0,
           "type": "LUT4",
           "parameters": {
@@ -22984,39 +22784,14 @@
             "Z": "output"
           },
           "connections": {
-            "A": [ 104 ],
-            "B": [ 105 ],
-            "C": [ 106 ],
-            "D": [ 107 ],
+            "A": [ 98 ],
+            "B": [ 99 ],
+            "C": [ 100 ],
+            "D": [ 101 ],
             "Z": [ 12 ]
           }
         },
-        "seg7_LUT4_Z_5": {
-          "hide_name": 0,
-          "type": "LUT4",
-          "parameters": {
-            "INIT": "1010100011111011"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:128.32-129.56"
-          },
-          "port_directions": {
-            "A": "input",
-            "B": "input",
-            "C": "input",
-            "D": "input",
-            "Z": "output"
-          },
-          "connections": {
-            "A": [ 104 ],
-            "B": [ 105 ],
-            "C": [ 106 ],
-            "D": [ 107 ],
-            "Z": [ 11 ]
-          }
-        },
-        "seg7_LUT4_Z_6": {
+        "seg7_LUT4_Z_2": {
           "hide_name": 0,
           "type": "LUT4",
           "parameters": {
@@ -23034,11 +22809,111 @@
             "Z": "output"
           },
           "connections": {
-            "A": [ 104 ],
-            "B": [ 105 ],
-            "C": [ 106 ],
-            "D": [ 107 ],
+            "A": [ 98 ],
+            "B": [ 99 ],
+            "C": [ 100 ],
+            "D": [ 101 ],
             "Z": [ 9 ]
+          }
+        },
+        "seg7_LUT4_Z_3": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0111111101100111"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:128.32-129.56"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "C": "input",
+            "D": "input",
+            "Z": "output"
+          },
+          "connections": {
+            "A": [ 98 ],
+            "B": [ 99 ],
+            "C": [ 100 ],
+            "D": [ 101 ],
+            "Z": [ 13 ]
+          }
+        },
+        "seg7_LUT4_Z_4": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1010100011111011"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:128.32-129.56"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "C": "input",
+            "D": "input",
+            "Z": "output"
+          },
+          "connections": {
+            "A": [ 98 ],
+            "B": [ 99 ],
+            "C": [ 100 ],
+            "D": [ 101 ],
+            "Z": [ 11 ]
+          }
+        },
+        "seg7_LUT4_Z_5": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0101101100110111"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:128.32-129.56"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "C": "input",
+            "D": "input",
+            "Z": "output"
+          },
+          "connections": {
+            "A": [ 98 ],
+            "B": [ 99 ],
+            "C": [ 100 ],
+            "D": [ 101 ],
+            "Z": [ 14 ]
+          }
+        },
+        "seg7_LUT4_Z_6": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1101011011111011"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:128.32-129.56"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "C": "input",
+            "D": "input",
+            "Z": "output"
+          },
+          "connections": {
+            "A": [ 98 ],
+            "B": [ 99 ],
+            "C": [ 100 ],
+            "D": [ 101 ],
+            "Z": [ 15 ]
           }
         },
         "u_bt": {
@@ -23052,7 +22927,7 @@
             "cell_src": "src/top.sv:20.8-29.2",
             "module": "button",
             "module_hdlname": "button",
-            "module_src": "src/button.sv:3.1-176.10"
+            "module_src": "src/button.sv:3.1-167.10"
           },
           "port_directions": {
           },
@@ -23089,16 +22964,16 @@
           "connections": {
             "A0": [ "0" ],
             "A1": [ "0" ],
-            "B0": [ 108 ],
-            "B1": [ 89 ],
+            "B0": [ 102 ],
+            "B1": [ 79 ],
             "C0": [ "0" ],
             "C1": [ "0" ],
-            "CIN": [ 109 ],
-            "COUT": [ 110 ],
+            "CIN": [ 103 ],
+            "COUT": [ 104 ],
             "D0": [ "1" ],
             "D1": [ "1" ],
-            "S0": [ 111 ],
-            "S1": [ 88 ]
+            "S0": [ 105 ],
+            "S1": [ 78 ]
           }
         },
         "u_bt.clk_0s25_CCU2C_B0_S1_CCU2C_S1": {
@@ -23131,16 +23006,16 @@
           "connections": {
             "A0": [ "1" ],
             "A1": [ "0" ],
-            "B0": [ 93 ],
-            "B1": [ 77 ],
+            "B0": [ 81 ],
+            "B1": [ 83 ],
             "C0": [ "0" ],
             "C1": [ "0" ],
             "CIN": [ "0" ],
-            "COUT": [ 112 ],
+            "COUT": [ 106 ],
             "D0": [ "1" ],
             "D1": [ "1" ],
-            "S0": [ 113 ],
-            "S1": [ 76 ]
+            "S0": [ 107 ],
+            "S1": [ 82 ]
           }
         },
         "u_bt.clk_0s25_CCU2C_B0_S1_CCU2C_S1_1": {
@@ -23173,16 +23048,16 @@
           "connections": {
             "A0": [ "0" ],
             "A1": [ "0" ],
-            "B0": [ 97 ],
-            "B1": [ 83 ],
+            "B0": [ 55 ],
+            "B1": [ 59 ],
             "C0": [ "0" ],
             "C1": [ "0" ],
-            "CIN": [ 112 ],
-            "COUT": [ 114 ],
+            "CIN": [ 106 ],
+            "COUT": [ 108 ],
             "D0": [ "1" ],
             "D1": [ "1" ],
-            "S0": [ 96 ],
-            "S1": [ 82 ]
+            "S0": [ 54 ],
+            "S1": [ 58 ]
           }
         },
         "u_bt.clk_0s25_CCU2C_B0_S1_CCU2C_S1_10": {
@@ -23215,16 +23090,16 @@
           "connections": {
             "A0": [ "0" ],
             "A1": [ "0" ],
-            "B0": [ 79 ],
-            "B1": [ 65 ],
+            "B0": [ 69 ],
+            "B1": [ 57 ],
             "C0": [ "0" ],
             "C1": [ "0" ],
-            "CIN": [ 115 ],
-            "COUT": [ 109 ],
+            "CIN": [ 109 ],
+            "COUT": [ 103 ],
             "D0": [ "1" ],
             "D1": [ "1" ],
-            "S0": [ 78 ],
-            "S1": [ 64 ]
+            "S0": [ 68 ],
+            "S1": [ 56 ]
           }
         },
         "u_bt.clk_0s25_CCU2C_B0_S1_CCU2C_S1_2": {
@@ -23257,16 +23132,16 @@
           "connections": {
             "A0": [ "0" ],
             "A1": [ "0" ],
-            "B0": [ 87 ],
-            "B1": [ 91 ],
+            "B0": [ 73 ],
+            "B1": [ 53 ],
             "C0": [ "0" ],
             "C1": [ "0" ],
-            "CIN": [ 114 ],
-            "COUT": [ 116 ],
+            "CIN": [ 108 ],
+            "COUT": [ 110 ],
             "D0": [ "1" ],
             "D1": [ "1" ],
-            "S0": [ 86 ],
-            "S1": [ 90 ]
+            "S0": [ 72 ],
+            "S1": [ 52 ]
           }
         },
         "u_bt.clk_0s25_CCU2C_B0_S1_CCU2C_S1_3": {
@@ -23299,16 +23174,16 @@
           "connections": {
             "A0": [ "0" ],
             "A1": [ "0" ],
-            "B0": [ 63 ],
-            "B1": [ 103 ],
+            "B0": [ 97 ],
+            "B1": [ 93 ],
             "C0": [ "0" ],
             "C1": [ "0" ],
-            "CIN": [ 116 ],
-            "COUT": [ 117 ],
+            "CIN": [ 110 ],
+            "COUT": [ 111 ],
             "D0": [ "1" ],
             "D1": [ "1" ],
-            "S0": [ 62 ],
-            "S1": [ 102 ]
+            "S0": [ 96 ],
+            "S1": [ 92 ]
           }
         },
         "u_bt.clk_0s25_CCU2C_B0_S1_CCU2C_S1_4": {
@@ -23341,16 +23216,16 @@
           "connections": {
             "A0": [ "0" ],
             "A1": [ "0" ],
-            "B0": [ 73 ],
-            "B1": [ 71 ],
+            "B0": [ 87 ],
+            "B1": [ 65 ],
             "C0": [ "0" ],
             "C1": [ "0" ],
-            "CIN": [ 117 ],
-            "COUT": [ 118 ],
+            "CIN": [ 111 ],
+            "COUT": [ 112 ],
             "D0": [ "1" ],
             "D1": [ "1" ],
-            "S0": [ 72 ],
-            "S1": [ 70 ]
+            "S0": [ 86 ],
+            "S1": [ 64 ]
           }
         },
         "u_bt.clk_0s25_CCU2C_B0_S1_CCU2C_S1_5": {
@@ -23383,16 +23258,16 @@
           "connections": {
             "A0": [ "0" ],
             "A1": [ "0" ],
-            "B0": [ 85 ],
-            "B1": [ 81 ],
+            "B0": [ 75 ],
+            "B1": [ 71 ],
             "C0": [ "0" ],
             "C1": [ "0" ],
-            "CIN": [ 118 ],
-            "COUT": [ 119 ],
+            "CIN": [ 112 ],
+            "COUT": [ 113 ],
             "D0": [ "1" ],
             "D1": [ "1" ],
-            "S0": [ 84 ],
-            "S1": [ 80 ]
+            "S0": [ 74 ],
+            "S1": [ 70 ]
           }
         },
         "u_bt.clk_0s25_CCU2C_B0_S1_CCU2C_S1_6": {
@@ -23425,16 +23300,16 @@
           "connections": {
             "A0": [ "0" ],
             "A1": [ "0" ],
-            "B0": [ 95 ],
-            "B1": [ 59 ],
+            "B0": [ 91 ],
+            "B1": [ 67 ],
             "C0": [ "0" ],
             "C1": [ "0" ],
-            "CIN": [ 119 ],
-            "COUT": [ 120 ],
+            "CIN": [ 113 ],
+            "COUT": [ 114 ],
             "D0": [ "1" ],
             "D1": [ "1" ],
-            "S0": [ 94 ],
-            "S1": [ 58 ]
+            "S0": [ 90 ],
+            "S1": [ 66 ]
           }
         },
         "u_bt.clk_0s25_CCU2C_B0_S1_CCU2C_S1_7": {
@@ -23467,16 +23342,16 @@
           "connections": {
             "A0": [ "0" ],
             "A1": [ "0" ],
-            "B0": [ 67 ],
-            "B1": [ 61 ],
+            "B0": [ 77 ],
+            "B1": [ 95 ],
             "C0": [ "0" ],
             "C1": [ "0" ],
-            "CIN": [ 120 ],
-            "COUT": [ 121 ],
+            "CIN": [ 114 ],
+            "COUT": [ 115 ],
             "D0": [ "1" ],
             "D1": [ "1" ],
-            "S0": [ 66 ],
-            "S1": [ 60 ]
+            "S0": [ 76 ],
+            "S1": [ 94 ]
           }
         },
         "u_bt.clk_0s25_CCU2C_B0_S1_CCU2C_S1_8": {
@@ -23509,16 +23384,16 @@
           "connections": {
             "A0": [ "0" ],
             "A1": [ "0" ],
-            "B0": [ 101 ],
-            "B1": [ 69 ],
+            "B0": [ 61 ],
+            "B1": [ 85 ],
             "C0": [ "0" ],
             "C1": [ "0" ],
-            "CIN": [ 121 ],
-            "COUT": [ 122 ],
+            "CIN": [ 115 ],
+            "COUT": [ 116 ],
             "D0": [ "1" ],
             "D1": [ "1" ],
-            "S0": [ 100 ],
-            "S1": [ 68 ]
+            "S0": [ 60 ],
+            "S1": [ 84 ]
           }
         },
         "u_bt.clk_0s25_CCU2C_B0_S1_CCU2C_S1_9": {
@@ -23551,16 +23426,16 @@
           "connections": {
             "A0": [ "0" ],
             "A1": [ "0" ],
-            "B0": [ 99 ],
-            "B1": [ 75 ],
+            "B0": [ 89 ],
+            "B1": [ 63 ],
             "C0": [ "0" ],
             "C1": [ "0" ],
-            "CIN": [ 122 ],
-            "COUT": [ 115 ],
+            "CIN": [ 116 ],
+            "COUT": [ 109 ],
             "D0": [ "1" ],
             "D1": [ "1" ],
-            "S0": [ 98 ],
-            "S1": [ 74 ]
+            "S0": [ 88 ],
+            "S1": [ 62 ]
           }
         },
         "u_bt.clk_0s25_CCU2C_B0_S1_LUT4_Z": {
@@ -23584,8 +23459,8 @@
             "A": [ "0" ],
             "B": [ "0" ],
             "C": [ "0" ],
-            "D": [ 93 ],
-            "Z": [ 92 ]
+            "D": [ 81 ],
+            "Z": [ 80 ]
           }
         },
         "u_bt.clk_0s25_TRELLIS_FF_Q": {
@@ -23612,9 +23487,9 @@
           },
           "connections": {
             "CLK": [ 2 ],
-            "DI": [ 111 ],
+            "DI": [ 105 ],
             "LSR": [ 3 ],
-            "Q": [ 108 ]
+            "Q": [ 102 ]
           }
         },
         "u_bt.counter_TRELLIS_FF_Q": {
@@ -23631,7 +23506,7 @@
           "attributes": {
             "always_ff": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/button.sv:109.1-114.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:68.164-68.215"
+            "src": "src/button.sv:100.1-105.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:68.164-68.215"
           },
           "port_directions": {
             "CLK": "input",
@@ -23641,9 +23516,9 @@
           },
           "connections": {
             "CLK": [ 2 ],
-            "DI": [ 123 ],
-            "LSR": [ 124 ],
-            "Q": [ 57 ]
+            "DI": [ 117 ],
+            "LSR": [ 118 ],
+            "Q": [ 51 ]
           }
         },
         "u_bt.counter_TRELLIS_FF_Q_1": {
@@ -23660,7 +23535,7 @@
           "attributes": {
             "always_ff": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/button.sv:109.1-114.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:68.164-68.215"
+            "src": "src/button.sv:100.1-105.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:68.164-68.215"
           },
           "port_directions": {
             "CLK": "input",
@@ -23670,9 +23545,9 @@
           },
           "connections": {
             "CLK": [ 2 ],
-            "DI": [ 125 ],
-            "LSR": [ 124 ],
-            "Q": [ 54 ]
+            "DI": [ 119 ],
+            "LSR": [ 118 ],
+            "Q": [ 49 ]
           }
         },
         "u_bt.counter_TRELLIS_FF_Q_2": {
@@ -23689,7 +23564,7 @@
           "attributes": {
             "always_ff": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/button.sv:109.1-114.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:68.164-68.215"
+            "src": "src/button.sv:100.1-105.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:68.164-68.215"
           },
           "port_directions": {
             "CLK": "input",
@@ -23699,9 +23574,9 @@
           },
           "connections": {
             "CLK": [ 2 ],
-            "DI": [ 126 ],
-            "LSR": [ 124 ],
-            "Q": [ 49 ]
+            "DI": [ 120 ],
+            "LSR": [ 118 ],
+            "Q": [ 43 ]
           }
         },
         "u_bt.counter_TRELLIS_FF_Q_3": {
@@ -23718,7 +23593,7 @@
           "attributes": {
             "always_ff": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/button.sv:109.1-114.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:68.164-68.215"
+            "src": "src/button.sv:100.1-105.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:68.164-68.215"
           },
           "port_directions": {
             "CLK": "input",
@@ -23728,20 +23603,20 @@
           },
           "connections": {
             "CLK": [ 2 ],
-            "DI": [ 127 ],
-            "LSR": [ 124 ],
-            "Q": [ 47 ]
+            "DI": [ 121 ],
+            "LSR": [ 118 ],
+            "Q": [ 42 ]
           }
         },
         "u_bt.counter_TRELLIS_FF_Q_3_DI_LUT4_Z": {
           "hide_name": 0,
           "type": "LUT4",
           "parameters": {
-            "INIT": "0011110011001100"
+            "INIT": "0000111111110000"
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:124.33-125.56"
+            "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:119.33-120.56"
           },
           "port_directions": {
             "A": "input",
@@ -23752,10 +23627,10 @@
           },
           "connections": {
             "A": [ "0" ],
-            "B": [ 49 ],
-            "C": [ 54 ],
-            "D": [ 57 ],
-            "Z": [ 126 ]
+            "B": [ "0" ],
+            "C": [ 49 ],
+            "D": [ 51 ],
+            "Z": [ 119 ]
           }
         },
         "u_bt.counter_TRELLIS_FF_Q_3_DI_LUT4_Z_1": {
@@ -23776,22 +23651,22 @@
             "Z": "output"
           },
           "connections": {
-            "A": [ 47 ],
-            "B": [ 49 ],
-            "C": [ 54 ],
-            "D": [ 57 ],
-            "Z": [ 127 ]
+            "A": [ 42 ],
+            "B": [ 43 ],
+            "C": [ 49 ],
+            "D": [ 51 ],
+            "Z": [ 121 ]
           }
         },
         "u_bt.counter_TRELLIS_FF_Q_3_DI_LUT4_Z_2": {
           "hide_name": 0,
           "type": "LUT4",
           "parameters": {
-            "INIT": "0000111111110000"
+            "INIT": "0011110011001100"
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:119.33-120.56"
+            "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:124.33-125.56"
           },
           "port_directions": {
             "A": "input",
@@ -23802,10 +23677,10 @@
           },
           "connections": {
             "A": [ "0" ],
-            "B": [ "0" ],
-            "C": [ 54 ],
-            "D": [ 57 ],
-            "Z": [ 125 ]
+            "B": [ 43 ],
+            "C": [ 49 ],
+            "D": [ 51 ],
+            "Z": [ 120 ]
           }
         },
         "u_bt.counter_TRELLIS_FF_Q_DI_LUT4_Z": {
@@ -23829,8 +23704,8 @@
             "A": [ "0" ],
             "B": [ "0" ],
             "C": [ "0" ],
-            "D": [ 57 ],
-            "Z": [ 123 ]
+            "D": [ 51 ],
+            "Z": [ 117 ]
           }
         },
         "u_bt.counter_TRELLIS_FF_Q_LSR_LUT4_Z": {
@@ -23851,11 +23726,11 @@
             "Z": "output"
           },
           "connections": {
-            "A": [ 47 ],
-            "B": [ 49 ],
-            "C": [ 54 ],
-            "D": [ 57 ],
-            "Z": [ 124 ]
+            "A": [ 42 ],
+            "B": [ 43 ],
+            "C": [ 49 ],
+            "D": [ 51 ],
+            "Z": [ 118 ]
           }
         },
         "u_bt.duty_cycle_TRELLIS_FF_Q": {
@@ -23871,7 +23746,7 @@
           "attributes": {
             "always_ff": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/button.sv:34.1-106.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:16.100-16.154"
+            "src": "src/button.sv:34.1-97.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:16.100-16.154"
           },
           "port_directions": {
             "CLK": "input",
@@ -23880,10 +23755,10 @@
             "Q": "output"
           },
           "connections": {
-            "CLK": [ 108 ],
-            "DI": [ 128 ],
+            "CLK": [ 102 ],
+            "DI": [ 122 ],
             "LSR": [ "0" ],
-            "Q": [ 55 ]
+            "Q": [ 48 ]
           }
         },
         "u_bt.duty_cycle_TRELLIS_FF_Q_1": {
@@ -23899,7 +23774,7 @@
           "attributes": {
             "always_ff": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/button.sv:34.1-106.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:16.100-16.154"
+            "src": "src/button.sv:34.1-97.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:16.100-16.154"
           },
           "port_directions": {
             "CLK": "input",
@@ -23908,10 +23783,10 @@
             "Q": "output"
           },
           "connections": {
-            "CLK": [ 108 ],
-            "DI": [ 129 ],
+            "CLK": [ 102 ],
+            "DI": [ 123 ],
             "LSR": [ "0" ],
-            "Q": [ 48 ]
+            "Q": [ 41 ]
           }
         },
         "u_bt.duty_cycle_TRELLIS_FF_Q_2": {
@@ -23927,7 +23802,7 @@
           "attributes": {
             "always_ff": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/button.sv:34.1-106.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:16.100-16.154"
+            "src": "src/button.sv:34.1-97.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:16.100-16.154"
           },
           "port_directions": {
             "CLK": "input",
@@ -23936,10 +23811,10 @@
             "Q": "output"
           },
           "connections": {
-            "CLK": [ 108 ],
-            "DI": [ 130 ],
+            "CLK": [ 102 ],
+            "DI": [ 124 ],
             "LSR": [ "0" ],
-            "Q": [ 50 ]
+            "Q": [ 44 ]
           }
         },
         "u_bt.duty_cycle_TRELLIS_FF_Q_3": {
@@ -23955,7 +23830,7 @@
           "attributes": {
             "always_ff": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/button.sv:34.1-106.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:16.100-16.154"
+            "src": "src/button.sv:34.1-97.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:16.100-16.154"
           },
           "port_directions": {
             "CLK": "input",
@@ -23964,17 +23839,17 @@
             "Q": "output"
           },
           "connections": {
-            "CLK": [ 108 ],
-            "DI": [ 131 ],
+            "CLK": [ 102 ],
+            "DI": [ 125 ],
             "LSR": [ "0" ],
-            "Q": [ 56 ]
+            "Q": [ 50 ]
           }
         },
         "u_bt.duty_cycle_TRELLIS_FF_Q_DI_LUT4_Z": {
           "hide_name": 0,
           "type": "LUT4",
           "parameters": {
-            "INIT": "1100110011110000"
+            "INIT": "1111000011001100"
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
@@ -23989,10 +23864,10 @@
           },
           "connections": {
             "A": [ "0" ],
-            "B": [ 32 ],
-            "C": [ 26 ],
-            "D": [ 29 ],
-            "Z": [ 130 ]
+            "B": [ 33 ],
+            "C": [ 34 ],
+            "D": [ 36 ],
+            "Z": [ 124 ]
           }
         },
         "u_bt.duty_cycle_TRELLIS_FF_Q_DI_LUT4_Z_1": {
@@ -24014,38 +23889,13 @@
           },
           "connections": {
             "A": [ "0" ],
-            "B": [ 31 ],
-            "C": [ 25 ],
-            "D": [ 29 ],
-            "Z": [ 129 ]
+            "B": [ 30 ],
+            "C": [ 31 ],
+            "D": [ 36 ],
+            "Z": [ 123 ]
           }
         },
         "u_bt.duty_cycle_TRELLIS_FF_Q_DI_LUT4_Z_2": {
-          "hide_name": 0,
-          "type": "LUT4",
-          "parameters": {
-            "INIT": "1100110011110000"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:124.33-125.56"
-          },
-          "port_directions": {
-            "A": "input",
-            "B": "input",
-            "C": "input",
-            "D": "input",
-            "Z": "output"
-          },
-          "connections": {
-            "A": [ "0" ],
-            "B": [ 33 ],
-            "C": [ 27 ],
-            "D": [ 29 ],
-            "Z": [ 128 ]
-          }
-        },
-        "u_bt.duty_cycle_TRELLIS_FF_Q_DI_LUT4_Z_3": {
           "hide_name": 0,
           "type": "LUT4",
           "parameters": {
@@ -24064,10 +23914,35 @@
           },
           "connections": {
             "A": [ "0" ],
-            "B": [ 36 ],
-            "C": [ 39 ],
-            "D": [ 29 ],
-            "Z": [ 131 ]
+            "B": [ 24 ],
+            "C": [ 25 ],
+            "D": [ 36 ],
+            "Z": [ 125 ]
+          }
+        },
+        "u_bt.duty_cycle_TRELLIS_FF_Q_DI_LUT4_Z_3": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1100110011110000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:124.33-125.56"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "C": "input",
+            "D": "input",
+            "Z": "output"
+          },
+          "connections": {
+            "A": [ "0" ],
+            "B": [ 27 ],
+            "C": [ 28 ],
+            "D": [ 36 ],
+            "Z": [ 122 ]
           }
         },
         "u_bt.duty_cycle_blue_TRELLIS_FF_Q": {
@@ -24084,7 +23959,7 @@
           "attributes": {
             "always_ff": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/button.sv:34.1-106.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:83.170-83.229"
+            "src": "src/button.sv:34.1-97.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:83.170-83.229"
           },
           "port_directions": {
             "CE": "input",
@@ -24094,11 +23969,11 @@
             "Q": "output"
           },
           "connections": {
-            "CE": [ 35 ],
-            "CLK": [ 108 ],
-            "DI": [ 132 ],
-            "LSR": [ 133 ],
-            "Q": [ 39 ]
+            "CE": [ 126 ],
+            "CLK": [ 102 ],
+            "DI": [ 127 ],
+            "LSR": [ 128 ],
+            "Q": [ 25 ]
           }
         },
         "u_bt.duty_cycle_blue_TRELLIS_FF_Q_1": {
@@ -24115,7 +23990,7 @@
           "attributes": {
             "always_ff": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/button.sv:34.1-106.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:83.170-83.229"
+            "src": "src/button.sv:34.1-97.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:83.170-83.229"
           },
           "port_directions": {
             "CE": "input",
@@ -24125,11 +24000,11 @@
             "Q": "output"
           },
           "connections": {
-            "CE": [ 35 ],
-            "CLK": [ 108 ],
-            "DI": [ 134 ],
-            "LSR": [ 133 ],
-            "Q": [ 33 ]
+            "CE": [ 126 ],
+            "CLK": [ 102 ],
+            "DI": [ 129 ],
+            "LSR": [ 128 ],
+            "Q": [ 27 ]
           }
         },
         "u_bt.duty_cycle_blue_TRELLIS_FF_Q_2": {
@@ -24146,7 +24021,7 @@
           "attributes": {
             "always_ff": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/button.sv:34.1-106.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:83.170-83.229"
+            "src": "src/button.sv:34.1-97.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:83.170-83.229"
           },
           "port_directions": {
             "CE": "input",
@@ -24156,14 +24031,95 @@
             "Q": "output"
           },
           "connections": {
-            "CE": [ 35 ],
-            "CLK": [ 108 ],
-            "DI": [ 135 ],
-            "LSR": [ 133 ],
-            "Q": [ 32 ]
+            "CE": [ 126 ],
+            "CLK": [ 102 ],
+            "DI": [ 130 ],
+            "LSR": [ 128 ],
+            "Q": [ 34 ]
           }
         },
-        "u_bt.duty_cycle_blue_TRELLIS_FF_Q_2_DI_LUT4_Z": {
+        "u_bt.duty_cycle_blue_TRELLIS_FF_Q_3": {
+          "hide_name": 0,
+          "type": "TRELLIS_FF",
+          "parameters": {
+            "CEMUX": "CE",
+            "CLKMUX": "CLK",
+            "GSR": "DISABLED",
+            "LSRMUX": "LSR",
+            "REGSET": "RESET",
+            "SRMODE": "LSR_OVER_CE"
+          },
+          "attributes": {
+            "always_ff": "00000000000000000000000000000001",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "src/button.sv:34.1-97.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:83.170-83.229"
+          },
+          "port_directions": {
+            "CE": "input",
+            "CLK": "input",
+            "DI": "input",
+            "LSR": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "CE": [ 126 ],
+            "CLK": [ 102 ],
+            "DI": [ 131 ],
+            "LSR": [ 128 ],
+            "Q": [ 30 ]
+          }
+        },
+        "u_bt.duty_cycle_blue_TRELLIS_FF_Q_3_DI_LUT4_Z": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0110101010101010"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:128.32-129.56"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "C": "input",
+            "D": "input",
+            "Z": "output"
+          },
+          "connections": {
+            "A": [ 30 ],
+            "B": [ 34 ],
+            "C": [ 27 ],
+            "D": [ 25 ],
+            "Z": [ 131 ]
+          }
+        },
+        "u_bt.duty_cycle_blue_TRELLIS_FF_Q_3_DI_LUT4_Z_1": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0011110011001100"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:124.33-125.56"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "C": "input",
+            "D": "input",
+            "Z": "output"
+          },
+          "connections": {
+            "A": [ "0" ],
+            "B": [ 34 ],
+            "C": [ 27 ],
+            "D": [ 25 ],
+            "Z": [ 130 ]
+          }
+        },
+        "u_bt.duty_cycle_blue_TRELLIS_FF_Q_3_DI_LUT4_Z_2": {
           "hide_name": 0,
           "type": "LUT4",
           "parameters": {
@@ -24183,45 +24139,20 @@
           "connections": {
             "A": [ "0" ],
             "B": [ "0" ],
-            "C": [ 33 ],
-            "D": [ 39 ],
-            "Z": [ 134 ]
+            "C": [ 27 ],
+            "D": [ 25 ],
+            "Z": [ 129 ]
           }
         },
-        "u_bt.duty_cycle_blue_TRELLIS_FF_Q_2_DI_LUT4_Z_1": {
+        "u_bt.duty_cycle_blue_TRELLIS_FF_Q_CE_LUT4_Z": {
           "hide_name": 0,
           "type": "LUT4",
           "parameters": {
-            "INIT": "0110101010101010"
+            "INIT": "1111000000000000"
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:128.32-129.56"
-          },
-          "port_directions": {
-            "A": "input",
-            "B": "input",
-            "C": "input",
-            "D": "input",
-            "Z": "output"
-          },
-          "connections": {
-            "A": [ 31 ],
-            "B": [ 32 ],
-            "C": [ 33 ],
-            "D": [ 39 ],
-            "Z": [ 136 ]
-          }
-        },
-        "u_bt.duty_cycle_blue_TRELLIS_FF_Q_2_DI_LUT4_Z_2": {
-          "hide_name": 0,
-          "type": "LUT4",
-          "parameters": {
-            "INIT": "0011110011001100"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:124.33-125.56"
+            "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:119.33-120.56"
           },
           "port_directions": {
             "A": "input",
@@ -24232,41 +24163,10 @@
           },
           "connections": {
             "A": [ "0" ],
-            "B": [ 32 ],
-            "C": [ 33 ],
-            "D": [ 39 ],
-            "Z": [ 135 ]
-          }
-        },
-        "u_bt.duty_cycle_blue_TRELLIS_FF_Q_3": {
-          "hide_name": 0,
-          "type": "TRELLIS_FF",
-          "parameters": {
-            "CEMUX": "CE",
-            "CLKMUX": "CLK",
-            "GSR": "DISABLED",
-            "LSRMUX": "LSR",
-            "REGSET": "RESET",
-            "SRMODE": "LSR_OVER_CE"
-          },
-          "attributes": {
-            "always_ff": "00000000000000000000000000000001",
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/button.sv:34.1-106.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:83.170-83.229"
-          },
-          "port_directions": {
-            "CE": "input",
-            "CLK": "input",
-            "DI": "input",
-            "LSR": "input",
-            "Q": "output"
-          },
-          "connections": {
-            "CE": [ 35 ],
-            "CLK": [ 108 ],
-            "DI": [ 136 ],
-            "LSR": [ 133 ],
-            "Q": [ 31 ]
+            "B": [ "0" ],
+            "C": [ 36 ],
+            "D": [ 132 ],
+            "Z": [ 126 ]
           }
         },
         "u_bt.duty_cycle_blue_TRELLIS_FF_Q_DI_LUT4_Z": {
@@ -24290,19 +24190,66 @@
             "A": [ "0" ],
             "B": [ "0" ],
             "C": [ "0" ],
-            "D": [ 39 ],
-            "Z": [ 132 ]
+            "D": [ 25 ],
+            "Z": [ 127 ]
           }
         },
-        "u_bt.duty_cycle_blue_TRELLIS_FF_Q_LSR_LUT4_Z": {
+        "u_bt.duty_cycle_blue_TRELLIS_FF_Q_LSR_PFUMX_Z": {
           "hide_name": 0,
-          "type": "LUT4",
+          "type": "PFUMX",
           "parameters": {
-            "INIT": "1100000000000000"
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:124.33-125.56"
+            "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:138.19-138.63"
+          },
+          "port_directions": {
+            "ALUT": "input",
+            "BLUT": "input",
+            "C0": "input",
+            "Z": "output"
+          },
+          "connections": {
+            "ALUT": [ 133 ],
+            "BLUT": [ 134 ],
+            "C0": [ 126 ],
+            "Z": [ 128 ]
+          }
+        },
+        "u_bt.duty_cycle_blue_TRELLIS_FF_Q_LSR_PFUMX_Z_ALUT_LUT4_Z": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0000001000000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:136.39-137.56"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "C": "input",
+            "D": "input",
+            "Z": "output"
+          },
+          "connections": {
+            "A": [ 30 ],
+            "B": [ 34 ],
+            "C": [ 27 ],
+            "D": [ 25 ],
+            "Z": [ 133 ]
+          }
+        },
+        "u_bt.duty_cycle_blue_TRELLIS_FF_Q_LSR_PFUMX_Z_BLUT_LUT4_Z": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0000000000000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:134.39-135.56"
           },
           "port_directions": {
             "A": "input",
@@ -24313,10 +24260,10 @@
           },
           "connections": {
             "A": [ "0" ],
-            "B": [ 39 ],
-            "C": [ 29 ],
-            "D": [ 34 ],
-            "Z": [ 133 ]
+            "B": [ "0" ],
+            "C": [ "0" ],
+            "D": [ "0" ],
+            "Z": [ 134 ]
           }
         },
         "u_bt.duty_cycle_red_TRELLIS_FF_Q": {
@@ -24333,7 +24280,7 @@
           "attributes": {
             "always_ff": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/button.sv:34.1-106.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:83.170-83.229"
+            "src": "src/button.sv:34.1-97.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:83.170-83.229"
           },
           "port_directions": {
             "CE": "input",
@@ -24343,11 +24290,11 @@
             "Q": "output"
           },
           "connections": {
-            "CE": [ 30 ],
-            "CLK": [ 108 ],
-            "DI": [ 137 ],
-            "LSR": [ 138 ],
-            "Q": [ 27 ]
+            "CE": [ 135 ],
+            "CLK": [ 102 ],
+            "DI": [ 136 ],
+            "LSR": [ 137 ],
+            "Q": [ 28 ]
           }
         },
         "u_bt.duty_cycle_red_TRELLIS_FF_Q_1": {
@@ -24364,7 +24311,7 @@
           "attributes": {
             "always_ff": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/button.sv:34.1-106.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:83.170-83.229"
+            "src": "src/button.sv:34.1-97.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:83.170-83.229"
           },
           "port_directions": {
             "CE": "input",
@@ -24374,11 +24321,11 @@
             "Q": "output"
           },
           "connections": {
-            "CE": [ 30 ],
-            "CLK": [ 108 ],
-            "DI": [ 139 ],
-            "LSR": [ 138 ],
-            "Q": [ 25 ]
+            "CE": [ 135 ],
+            "CLK": [ 102 ],
+            "DI": [ 138 ],
+            "LSR": [ 137 ],
+            "Q": [ 31 ]
           }
         },
         "u_bt.duty_cycle_red_TRELLIS_FF_Q_2": {
@@ -24395,7 +24342,7 @@
           "attributes": {
             "always_ff": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/button.sv:34.1-106.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:83.170-83.229"
+            "src": "src/button.sv:34.1-97.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:83.170-83.229"
           },
           "port_directions": {
             "CE": "input",
@@ -24405,11 +24352,11 @@
             "Q": "output"
           },
           "connections": {
-            "CE": [ 30 ],
-            "CLK": [ 108 ],
-            "DI": [ 140 ],
-            "LSR": [ 138 ],
-            "Q": [ 26 ]
+            "CE": [ 135 ],
+            "CLK": [ 102 ],
+            "DI": [ 139 ],
+            "LSR": [ 137 ],
+            "Q": [ 33 ]
           }
         },
         "u_bt.duty_cycle_red_TRELLIS_FF_Q_3": {
@@ -24426,7 +24373,7 @@
           "attributes": {
             "always_ff": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/button.sv:34.1-106.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:83.170-83.229"
+            "src": "src/button.sv:34.1-97.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:83.170-83.229"
           },
           "port_directions": {
             "CE": "input",
@@ -24436,11 +24383,11 @@
             "Q": "output"
           },
           "connections": {
-            "CE": [ 30 ],
-            "CLK": [ 108 ],
-            "DI": [ 141 ],
-            "LSR": [ 138 ],
-            "Q": [ 36 ]
+            "CE": [ 135 ],
+            "CLK": [ 102 ],
+            "DI": [ 140 ],
+            "LSR": [ 137 ],
+            "Q": [ 24 ]
           }
         },
         "u_bt.duty_cycle_red_TRELLIS_FF_Q_3_DI_LUT4_Z": {
@@ -24464,19 +24411,19 @@
             "A": [ "0" ],
             "B": [ "0" ],
             "C": [ "0" ],
-            "D": [ 36 ],
-            "Z": [ 141 ]
+            "D": [ 24 ],
+            "Z": [ 140 ]
           }
         },
-        "u_bt.duty_cycle_red_TRELLIS_FF_Q_DI_LUT4_Z": {
+        "u_bt.duty_cycle_red_TRELLIS_FF_Q_CE_LUT4_Z": {
           "hide_name": 0,
           "type": "LUT4",
           "parameters": {
-            "INIT": "0110101010101010"
+            "INIT": "0000111100000000"
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:128.32-129.56"
+            "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:119.33-120.56"
           },
           "port_directions": {
             "A": "input",
@@ -24486,14 +24433,39 @@
             "Z": "output"
           },
           "connections": {
-            "A": [ 25 ],
-            "B": [ 26 ],
-            "C": [ 27 ],
-            "D": [ 36 ],
-            "Z": [ 139 ]
+            "A": [ "0" ],
+            "B": [ "0" ],
+            "C": [ 36 ],
+            "D": [ 132 ],
+            "Z": [ 135 ]
           }
         },
-        "u_bt.duty_cycle_red_TRELLIS_FF_Q_DI_LUT4_Z_1": {
+        "u_bt.duty_cycle_red_TRELLIS_FF_Q_CE_LUT4_Z_D_LUT4_Z": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0011000011000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:124.33-125.56"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "C": "input",
+            "D": "input",
+            "Z": "output"
+          },
+          "connections": {
+            "A": [ "0" ],
+            "B": [ 20 ],
+            "C": [ 21 ],
+            "D": [ 22 ],
+            "Z": [ 132 ]
+          }
+        },
+        "u_bt.duty_cycle_red_TRELLIS_FF_Q_DI_LUT4_Z": {
           "hide_name": 0,
           "type": "LUT4",
           "parameters": {
@@ -24512,10 +24484,35 @@
           },
           "connections": {
             "A": [ "0" ],
-            "B": [ 26 ],
-            "C": [ 27 ],
-            "D": [ 36 ],
-            "Z": [ 140 ]
+            "B": [ 33 ],
+            "C": [ 28 ],
+            "D": [ 24 ],
+            "Z": [ 139 ]
+          }
+        },
+        "u_bt.duty_cycle_red_TRELLIS_FF_Q_DI_LUT4_Z_1": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0110101010101010"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:128.32-129.56"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "C": "input",
+            "D": "input",
+            "Z": "output"
+          },
+          "connections": {
+            "A": [ 31 ],
+            "B": [ 33 ],
+            "C": [ 28 ],
+            "D": [ 24 ],
+            "Z": [ 138 ]
           }
         },
         "u_bt.duty_cycle_red_TRELLIS_FF_Q_DI_LUT4_Z_2": {
@@ -24538,9 +24535,9 @@
           "connections": {
             "A": [ "0" ],
             "B": [ "0" ],
-            "C": [ 27 ],
-            "D": [ 36 ],
-            "Z": [ 137 ]
+            "C": [ 28 ],
+            "D": [ 24 ],
+            "Z": [ 136 ]
           }
         },
         "u_bt.duty_cycle_red_TRELLIS_FF_Q_LSR_LUT4_Z": {
@@ -24564,8 +24561,80 @@
             "A": [ "0" ],
             "B": [ "0" ],
             "C": [ "0" ],
-            "D": [ 37 ],
-            "Z": [ 138 ]
+            "D": [ 141 ],
+            "Z": [ 137 ]
+          }
+        },
+        "u_bt.duty_cycle_red_TRELLIS_FF_Q_LSR_LUT4_Z_D_PFUMX_Z": {
+          "hide_name": 0,
+          "type": "PFUMX",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:138.19-138.63"
+          },
+          "port_directions": {
+            "ALUT": "input",
+            "BLUT": "input",
+            "C0": "input",
+            "Z": "output"
+          },
+          "connections": {
+            "ALUT": [ 142 ],
+            "BLUT": [ 143 ],
+            "C0": [ 135 ],
+            "Z": [ 141 ]
+          }
+        },
+        "u_bt.duty_cycle_red_TRELLIS_FF_Q_LSR_LUT4_Z_D_PFUMX_Z_ALUT_LUT4_Z": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1111110111111111"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:136.39-137.56"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "C": "input",
+            "D": "input",
+            "Z": "output"
+          },
+          "connections": {
+            "A": [ 31 ],
+            "B": [ 33 ],
+            "C": [ 28 ],
+            "D": [ 24 ],
+            "Z": [ 142 ]
+          }
+        },
+        "u_bt.duty_cycle_red_TRELLIS_FF_Q_LSR_LUT4_Z_D_PFUMX_Z_BLUT_LUT4_Z": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "1111111111111111"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:134.39-135.56"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "C": "input",
+            "D": "input",
+            "Z": "output"
+          },
+          "connections": {
+            "A": [ "0" ],
+            "B": [ "0" ],
+            "C": [ "0" ],
+            "D": [ "0" ],
+            "Z": [ 143 ]
           }
         },
         "u_bt.seg7_TRELLIS_FF_Q": {
@@ -24581,7 +24650,7 @@
           "attributes": {
             "always_ff": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/button.sv:34.1-106.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:16.100-16.154"
+            "src": "src/button.sv:34.1-97.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:16.100-16.154"
           },
           "port_directions": {
             "CLK": "input",
@@ -24590,10 +24659,10 @@
             "Q": "output"
           },
           "connections": {
-            "CLK": [ 108 ],
-            "DI": [ 41 ],
+            "CLK": [ 102 ],
+            "DI": [ 29 ],
             "LSR": [ "0" ],
-            "Q": [ 106 ]
+            "Q": [ 100 ]
           }
         },
         "u_bt.seg7_TRELLIS_FF_Q_1": {
@@ -24609,7 +24678,7 @@
           "attributes": {
             "always_ff": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/button.sv:34.1-106.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:16.100-16.154"
+            "src": "src/button.sv:34.1-97.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:16.100-16.154"
           },
           "port_directions": {
             "CLK": "input",
@@ -24618,10 +24687,10 @@
             "Q": "output"
           },
           "connections": {
-            "CLK": [ 108 ],
-            "DI": [ 40 ],
+            "CLK": [ 102 ],
+            "DI": [ 26 ],
             "LSR": [ "0" ],
-            "Q": [ 107 ]
+            "Q": [ 101 ]
           }
         },
         "u_bt.seg7_TRELLIS_FF_Q_2": {
@@ -24637,7 +24706,7 @@
           "attributes": {
             "always_ff": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/button.sv:34.1-106.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:16.100-16.154"
+            "src": "src/button.sv:34.1-97.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:16.100-16.154"
           },
           "port_directions": {
             "CLK": "input",
@@ -24646,10 +24715,10 @@
             "Q": "output"
           },
           "connections": {
-            "CLK": [ 108 ],
-            "DI": [ 38 ],
+            "CLK": [ 102 ],
+            "DI": [ 32 ],
             "LSR": [ "0" ],
-            "Q": [ 104 ]
+            "Q": [ 98 ]
           }
         },
         "u_bt.seg7_TRELLIS_FF_Q_3": {
@@ -24665,7 +24734,7 @@
           "attributes": {
             "always_ff": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/button.sv:34.1-106.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:16.100-16.154"
+            "src": "src/button.sv:34.1-97.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:16.100-16.154"
           },
           "port_directions": {
             "CLK": "input",
@@ -24674,35 +24743,10 @@
             "Q": "output"
           },
           "connections": {
-            "CLK": [ 108 ],
-            "DI": [ 42 ],
+            "CLK": [ 102 ],
+            "DI": [ 35 ],
             "LSR": [ "0" ],
-            "Q": [ 105 ]
-          }
-        },
-        "u_bt.state2_LUT4_D": {
-          "hide_name": 0,
-          "type": "LUT4",
-          "parameters": {
-            "INIT": "0011110000001100"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:124.33-125.56"
-          },
-          "port_directions": {
-            "A": "input",
-            "B": "input",
-            "C": "input",
-            "D": "input",
-            "Z": "output"
-          },
-          "connections": {
-            "A": [ "0" ],
-            "B": [ 21 ],
-            "C": [ 22 ],
-            "D": [ 23 ],
-            "Z": [ 29 ]
+            "Q": [ 99 ]
           }
         },
         "u_bt.state2_TRELLIS_FF_Q": {
@@ -24718,7 +24762,7 @@
           "attributes": {
             "always_ff": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/button.sv:128.1-162.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:56.101-56.163"
+            "src": "src/button.sv:119.1-153.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:56.101-56.163"
           },
           "port_directions": {
             "CE": "input",
@@ -24728,11 +24772,11 @@
             "Q": "output"
           },
           "connections": {
-            "CE": [ 24 ],
-            "CLK": [ 108 ],
-            "DI": [ 142 ],
+            "CE": [ 19 ],
+            "CLK": [ 102 ],
+            "DI": [ 144 ],
             "LSR": [ "0" ],
-            "Q": [ 22 ]
+            "Q": [ 17 ]
           }
         },
         "u_bt.state2_TRELLIS_FF_Q_1": {
@@ -24748,7 +24792,7 @@
           "attributes": {
             "always_ff": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/button.sv:128.1-162.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:56.101-56.163"
+            "src": "src/button.sv:119.1-153.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:56.101-56.163"
           },
           "port_directions": {
             "CE": "input",
@@ -24758,11 +24802,11 @@
             "Q": "output"
           },
           "connections": {
-            "CE": [ 24 ],
-            "CLK": [ 108 ],
-            "DI": [ 143 ],
+            "CE": [ 19 ],
+            "CLK": [ 102 ],
+            "DI": [ 145 ],
             "LSR": [ "0" ],
-            "Q": [ 23 ]
+            "Q": [ 18 ]
           }
         },
         "u_bt.state2_TRELLIS_FF_Q_2": {
@@ -24778,7 +24822,7 @@
           "attributes": {
             "always_ff": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/button.sv:128.1-162.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:56.101-56.163"
+            "src": "src/button.sv:119.1-153.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:56.101-56.163"
           },
           "port_directions": {
             "CE": "input",
@@ -24788,11 +24832,11 @@
             "Q": "output"
           },
           "connections": {
-            "CE": [ 24 ],
-            "CLK": [ 108 ],
-            "DI": [ 144 ],
+            "CE": [ 19 ],
+            "CLK": [ 102 ],
+            "DI": [ 146 ],
             "LSR": [ "0" ],
-            "Q": [ 21 ]
+            "Q": [ 16 ]
           }
         },
         "u_bt.state2_TRELLIS_FF_Q_DI_LUT4_Z": {
@@ -24814,10 +24858,10 @@
           },
           "connections": {
             "A": [ "0" ],
-            "B": [ 21 ],
-            "C": [ 22 ],
-            "D": [ 23 ],
-            "Z": [ 144 ]
+            "B": [ 16 ],
+            "C": [ 17 ],
+            "D": [ 18 ],
+            "Z": [ 146 ]
           }
         },
         "u_bt.state2_TRELLIS_FF_Q_DI_LUT4_Z_1": {
@@ -24839,10 +24883,10 @@
           },
           "connections": {
             "A": [ "0" ],
-            "B": [ 21 ],
-            "C": [ 22 ],
-            "D": [ 23 ],
-            "Z": [ 142 ]
+            "B": [ 16 ],
+            "C": [ 17 ],
+            "D": [ 18 ],
+            "Z": [ 144 ]
           }
         },
         "u_bt.state2_TRELLIS_FF_Q_DI_LUT4_Z_2": {
@@ -24864,10 +24908,10 @@
           },
           "connections": {
             "A": [ "0" ],
-            "B": [ 21 ],
-            "C": [ 22 ],
-            "D": [ 23 ],
-            "Z": [ 143 ]
+            "B": [ 16 ],
+            "C": [ 17 ],
+            "D": [ 18 ],
+            "Z": [ 145 ]
           }
         },
         "u_bt.state_TRELLIS_FF_Q": {
@@ -24883,7 +24927,7 @@
           "attributes": {
             "always_ff": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/button.sv:34.1-106.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:56.101-56.163"
+            "src": "src/button.sv:34.1-97.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:56.101-56.163"
           },
           "port_directions": {
             "CE": "input",
@@ -24893,11 +24937,11 @@
             "Q": "output"
           },
           "connections": {
-            "CE": [ 20 ],
-            "CLK": [ 108 ],
-            "DI": [ 145 ],
+            "CE": [ 23 ],
+            "CLK": [ 102 ],
+            "DI": [ 147 ],
             "LSR": [ "0" ],
-            "Q": [ 16 ]
+            "Q": [ 20 ]
           }
         },
         "u_bt.state_TRELLIS_FF_Q_1": {
@@ -24913,7 +24957,7 @@
           "attributes": {
             "always_ff": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/button.sv:34.1-106.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:56.101-56.163"
+            "src": "src/button.sv:34.1-97.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:56.101-56.163"
           },
           "port_directions": {
             "CE": "input",
@@ -24923,11 +24967,11 @@
             "Q": "output"
           },
           "connections": {
-            "CE": [ 20 ],
-            "CLK": [ 108 ],
-            "DI": [ 146 ],
+            "CE": [ 23 ],
+            "CLK": [ 102 ],
+            "DI": [ 148 ],
             "LSR": [ "0" ],
-            "Q": [ 18 ]
+            "Q": [ 22 ]
           }
         },
         "u_bt.state_TRELLIS_FF_Q_2": {
@@ -24943,7 +24987,7 @@
           "attributes": {
             "always_ff": "00000000000000000000000000000001",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/button.sv:34.1-106.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:56.101-56.163"
+            "src": "src/button.sv:34.1-97.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:56.101-56.163"
           },
           "port_directions": {
             "CE": "input",
@@ -24953,11 +24997,11 @@
             "Q": "output"
           },
           "connections": {
-            "CE": [ 20 ],
-            "CLK": [ 108 ],
-            "DI": [ 147 ],
+            "CE": [ 23 ],
+            "CLK": [ 102 ],
+            "DI": [ 149 ],
             "LSR": [ "0" ],
-            "Q": [ 17 ]
+            "Q": [ 21 ]
           }
         },
         "u_bt.state_TRELLIS_FF_Q_DI_LUT4_Z": {
@@ -24979,38 +25023,13 @@
           },
           "connections": {
             "A": [ "0" ],
-            "B": [ 16 ],
-            "C": [ 17 ],
-            "D": [ 18 ],
-            "Z": [ 145 ]
-          }
-        },
-        "u_bt.state_TRELLIS_FF_Q_DI_LUT4_Z_1": {
-          "hide_name": 0,
-          "type": "LUT4",
-          "parameters": {
-            "INIT": "0000111100110000"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:124.33-125.56"
-          },
-          "port_directions": {
-            "A": "input",
-            "B": "input",
-            "C": "input",
-            "D": "input",
-            "Z": "output"
-          },
-          "connections": {
-            "A": [ "0" ],
-            "B": [ 16 ],
-            "C": [ 17 ],
-            "D": [ 18 ],
+            "B": [ 20 ],
+            "C": [ 21 ],
+            "D": [ 22 ],
             "Z": [ 147 ]
           }
         },
-        "u_bt.state_TRELLIS_FF_Q_DI_LUT4_Z_2": {
+        "u_bt.state_TRELLIS_FF_Q_DI_LUT4_Z_1": {
           "hide_name": 0,
           "type": "LUT4",
           "parameters": {
@@ -25029,10 +25048,35 @@
           },
           "connections": {
             "A": [ "0" ],
-            "B": [ 16 ],
-            "C": [ 17 ],
-            "D": [ 18 ],
-            "Z": [ 146 ]
+            "B": [ 20 ],
+            "C": [ 21 ],
+            "D": [ 22 ],
+            "Z": [ 148 ]
+          }
+        },
+        "u_bt.state_TRELLIS_FF_Q_DI_LUT4_Z_2": {
+          "hide_name": 0,
+          "type": "LUT4",
+          "parameters": {
+            "INIT": "0000111100110000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:124.33-125.56"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "C": "input",
+            "D": "input",
+            "Z": "output"
+          },
+          "connections": {
+            "A": [ "0" ],
+            "B": [ 20 ],
+            "C": [ 21 ],
+            "D": [ 22 ],
+            "Z": [ 149 ]
           }
         },
         "u_bt.u_clock_div": {
@@ -25081,28 +25125,16 @@
             "src": "src/top.sv:7.21-7.23"
           }
         },
+        "bt_LUT4_A_1_Z": {
+          "hide_name": 0,
+          "bits": [ 23 ],
+          "attributes": {
+          }
+        },
         "bt_LUT4_A_Z": {
           "hide_name": 0,
-          "bits": [ 25, 26, 27, 19 ],
+          "bits": [ 19 ],
           "attributes": {
-            "force_downto": "00000000000000000000000000000001",
-            "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:108.23-108.24"
-          }
-        },
-        "bt_LUT4_A_Z_LUT4_D_2_Z": {
-          "hide_name": 0,
-          "bits": [ 39, 29, 34 ],
-          "attributes": {
-            "force_downto": "00000000000000000000000000000001",
-            "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:108.23-108.24"
-          }
-        },
-        "bt_LUT4_A_Z_LUT4_D_Z": {
-          "hide_name": 0,
-          "bits": [ 36, 29, 28 ],
-          "attributes": {
-            "force_downto": "00000000000000000000000000000001",
-            "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:108.23-108.24"
           }
         },
         "clk": {
@@ -25121,13 +25153,13 @@
         },
         "dip_LUT4_B_Z": {
           "hide_name": 0,
-          "bits": [ 40, 41, 42, 38 ],
+          "bits": [ 26, 29, 35, 32 ],
           "attributes": {
           }
         },
         "display": {
           "hide_name": 0,
-          "bits": [ 107, 106, 105, 104 ],
+          "bits": [ 101, 100, 99, 98 ],
           "attributes": {
             "src": "src/top.sv:19.12-19.19"
           }
@@ -25141,7 +25173,7 @@
         },
         "duty_cycle": {
           "hide_name": 0,
-          "bits": [ 56, 55, 50, 48 ],
+          "bits": [ 50, 48, 44, 41 ],
           "attributes": {
             "src": "src/top.sv:18.12-18.22"
           }
@@ -25155,7 +25187,7 @@
         },
         "led_LUT4_Z_C": {
           "hide_name": 0,
-          "bits": [ 36, 39, 29 ],
+          "bits": [ 24, 25, 36 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
             "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:108.23-108.24"
@@ -25163,7 +25195,7 @@
         },
         "led_LUT4_Z_D": {
           "hide_name": 0,
-          "bits": [ 29, 43 ],
+          "bits": [ 36, 37 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
             "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:108.23-108.24"
@@ -25171,21 +25203,21 @@
         },
         "led_LUT4_Z_D_PFUMX_Z_ALUT": {
           "hide_name": 0,
-          "bits": [ 44 ],
+          "bits": [ 38 ],
           "attributes": {
             "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:133.22-133.24"
           }
         },
         "led_LUT4_Z_D_PFUMX_Z_BLUT": {
           "hide_name": 0,
-          "bits": [ 45 ],
+          "bits": [ 39 ],
           "attributes": {
             "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:133.18-133.20"
           }
         },
         "led_LUT4_Z_D_PFUMX_Z_C0": {
           "hide_name": 0,
-          "bits": [ 47, 48, 49, 50, 46 ],
+          "bits": [ 41, 42, 43, 44, 40 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
             "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:108.23-108.24"
@@ -25193,21 +25225,21 @@
         },
         "led_LUT4_Z_D_PFUMX_Z_C0_PFUMX_Z_ALUT": {
           "hide_name": 0,
-          "bits": [ 51 ],
+          "bits": [ 45 ],
           "attributes": {
             "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:133.22-133.24"
           }
         },
         "led_LUT4_Z_D_PFUMX_Z_C0_PFUMX_Z_BLUT": {
           "hide_name": 0,
-          "bits": [ 52 ],
+          "bits": [ 46 ],
           "attributes": {
             "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:133.18-133.20"
           }
         },
         "led_LUT4_Z_D_PFUMX_Z_C0_PFUMX_Z_C0": {
           "hide_name": 0,
-          "bits": [ 54, 55, 56, 57, 53 ],
+          "bits": [ 48, 49, 50, 51, 47 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
             "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:108.23-108.24"
@@ -25222,142 +25254,142 @@
         },
         "rst_TRELLIS_FF_LSR_10_Q": {
           "hide_name": 0,
-          "bits": [ 63 ],
+          "bits": [ 57 ],
           "attributes": {
           }
         },
         "rst_TRELLIS_FF_LSR_11_Q": {
           "hide_name": 0,
-          "bits": [ 65 ],
+          "bits": [ 59 ],
           "attributes": {
           }
         },
         "rst_TRELLIS_FF_LSR_12_Q": {
           "hide_name": 0,
-          "bits": [ 67 ],
+          "bits": [ 61 ],
           "attributes": {
           }
         },
         "rst_TRELLIS_FF_LSR_13_Q": {
           "hide_name": 0,
-          "bits": [ 69 ],
+          "bits": [ 63 ],
           "attributes": {
           }
         },
         "rst_TRELLIS_FF_LSR_14_Q": {
           "hide_name": 0,
-          "bits": [ 71 ],
+          "bits": [ 65 ],
           "attributes": {
           }
         },
         "rst_TRELLIS_FF_LSR_15_Q": {
           "hide_name": 0,
-          "bits": [ 73 ],
+          "bits": [ 67 ],
           "attributes": {
           }
         },
         "rst_TRELLIS_FF_LSR_16_Q": {
           "hide_name": 0,
-          "bits": [ 75 ],
+          "bits": [ 69 ],
           "attributes": {
           }
         },
         "rst_TRELLIS_FF_LSR_17_Q": {
           "hide_name": 0,
-          "bits": [ 77 ],
+          "bits": [ 71 ],
           "attributes": {
           }
         },
         "rst_TRELLIS_FF_LSR_18_Q": {
           "hide_name": 0,
-          "bits": [ 79 ],
+          "bits": [ 73 ],
           "attributes": {
           }
         },
         "rst_TRELLIS_FF_LSR_19_Q": {
           "hide_name": 0,
-          "bits": [ 81 ],
+          "bits": [ 75 ],
           "attributes": {
           }
         },
         "rst_TRELLIS_FF_LSR_1_Q": {
           "hide_name": 0,
-          "bits": [ 61 ],
+          "bits": [ 55 ],
           "attributes": {
           }
         },
         "rst_TRELLIS_FF_LSR_20_Q": {
           "hide_name": 0,
-          "bits": [ 85 ],
+          "bits": [ 79 ],
           "attributes": {
           }
         },
         "rst_TRELLIS_FF_LSR_21_Q": {
           "hide_name": 0,
-          "bits": [ 87 ],
-          "attributes": {
-          }
-        },
-        "rst_TRELLIS_FF_LSR_22_Q": {
-          "hide_name": 0,
-          "bits": [ 89 ],
-          "attributes": {
-          }
-        },
-        "rst_TRELLIS_FF_LSR_2_Q": {
-          "hide_name": 0,
-          "bits": [ 83 ],
-          "attributes": {
-          }
-        },
-        "rst_TRELLIS_FF_LSR_3_Q": {
-          "hide_name": 0,
-          "bits": [ 91 ],
-          "attributes": {
-          }
-        },
-        "rst_TRELLIS_FF_LSR_4_Q": {
-          "hide_name": 0,
-          "bits": [ 93 ],
+          "bits": [ 81 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
             "single_bit_vector": "00000000000000000000000000000001",
             "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:108.23-108.24"
           }
         },
+        "rst_TRELLIS_FF_LSR_22_Q": {
+          "hide_name": 0,
+          "bits": [ 83 ],
+          "attributes": {
+          }
+        },
+        "rst_TRELLIS_FF_LSR_2_Q": {
+          "hide_name": 0,
+          "bits": [ 77 ],
+          "attributes": {
+          }
+        },
+        "rst_TRELLIS_FF_LSR_3_Q": {
+          "hide_name": 0,
+          "bits": [ 85 ],
+          "attributes": {
+          }
+        },
+        "rst_TRELLIS_FF_LSR_4_Q": {
+          "hide_name": 0,
+          "bits": [ 87 ],
+          "attributes": {
+          }
+        },
         "rst_TRELLIS_FF_LSR_5_Q": {
           "hide_name": 0,
-          "bits": [ 95 ],
+          "bits": [ 89 ],
           "attributes": {
           }
         },
         "rst_TRELLIS_FF_LSR_6_Q": {
           "hide_name": 0,
-          "bits": [ 97 ],
+          "bits": [ 91 ],
           "attributes": {
           }
         },
         "rst_TRELLIS_FF_LSR_7_Q": {
           "hide_name": 0,
-          "bits": [ 99 ],
+          "bits": [ 93 ],
           "attributes": {
           }
         },
         "rst_TRELLIS_FF_LSR_8_Q": {
           "hide_name": 0,
-          "bits": [ 101 ],
+          "bits": [ 95 ],
           "attributes": {
           }
         },
         "rst_TRELLIS_FF_LSR_9_Q": {
           "hide_name": 0,
-          "bits": [ 103 ],
+          "bits": [ 97 ],
           "attributes": {
           }
         },
         "rst_TRELLIS_FF_LSR_Q": {
           "hide_name": 0,
-          "bits": [ 59 ],
+          "bits": [ 53 ],
           "attributes": {
           }
         },
@@ -25386,7 +25418,7 @@
         },
         "u_bt.clk_0s25": {
           "hide_name": 0,
-          "bits": [ 108 ],
+          "bits": [ 102 ],
           "attributes": {
             "hdlname": "u_bt clk_0s25",
             "src": "src/button.sv:22.7-22.15"
@@ -25394,7 +25426,7 @@
         },
         "u_bt.clk_0s25_CCU2C_B0_COUT": {
           "hide_name": 0,
-          "bits": [ 110 ],
+          "bits": [ 104 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "src/div.sv:27.28-27.47|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/arith_map_ccu2c.v:74.7-80.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice\\ccu2c_sim.vh:9.9-9.13",
@@ -25403,7 +25435,7 @@
         },
         "u_bt.clk_0s25_CCU2C_B0_S1": {
           "hide_name": 0,
-          "bits": [ 92, 76, 96, 82, 86, 90, 62, 102, 72, 70, 84, 80, 94, 58, 66, 60, 100, 68, 98, 74, 78, 64, 111, 88, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187 ],
+          "bits": [ 80, 82, 54, 58, 72, 52, 96, 92, 86, 64, 74, 70, 90, 66, 76, 94, 60, 84, 88, 62, 68, 56, 105, 78, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
             "src": "src/div.sv:27.28-27.47|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/arith_map_ccu2c.v:34.26-34.27",
@@ -25412,7 +25444,7 @@
         },
         "u_bt.clk_0s25_CCU2C_B0_S1_CCU2C_S1_10_COUT": {
           "hide_name": 0,
-          "bits": [ 109 ],
+          "bits": [ 103 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "src/div.sv:27.28-27.47|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/arith_map_ccu2c.v:74.7-80.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice\\ccu2c_sim.vh:9.9-9.13"
@@ -25420,7 +25452,7 @@
         },
         "u_bt.clk_0s25_CCU2C_B0_S1_CCU2C_S1_1_COUT": {
           "hide_name": 0,
-          "bits": [ 114 ],
+          "bits": [ 108 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "src/div.sv:27.28-27.47|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/arith_map_ccu2c.v:74.7-80.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice\\ccu2c_sim.vh:9.9-9.13"
@@ -25428,7 +25460,7 @@
         },
         "u_bt.clk_0s25_CCU2C_B0_S1_CCU2C_S1_2_COUT": {
           "hide_name": 0,
-          "bits": [ 116 ],
+          "bits": [ 110 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "src/div.sv:27.28-27.47|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/arith_map_ccu2c.v:74.7-80.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice\\ccu2c_sim.vh:9.9-9.13"
@@ -25436,7 +25468,7 @@
         },
         "u_bt.clk_0s25_CCU2C_B0_S1_CCU2C_S1_3_COUT": {
           "hide_name": 0,
-          "bits": [ 117 ],
+          "bits": [ 111 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "src/div.sv:27.28-27.47|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/arith_map_ccu2c.v:74.7-80.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice\\ccu2c_sim.vh:9.9-9.13"
@@ -25444,7 +25476,7 @@
         },
         "u_bt.clk_0s25_CCU2C_B0_S1_CCU2C_S1_4_COUT": {
           "hide_name": 0,
-          "bits": [ 118 ],
+          "bits": [ 112 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "src/div.sv:27.28-27.47|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/arith_map_ccu2c.v:74.7-80.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice\\ccu2c_sim.vh:9.9-9.13"
@@ -25452,7 +25484,7 @@
         },
         "u_bt.clk_0s25_CCU2C_B0_S1_CCU2C_S1_5_COUT": {
           "hide_name": 0,
-          "bits": [ 119 ],
+          "bits": [ 113 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "src/div.sv:27.28-27.47|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/arith_map_ccu2c.v:74.7-80.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice\\ccu2c_sim.vh:9.9-9.13"
@@ -25460,7 +25492,7 @@
         },
         "u_bt.clk_0s25_CCU2C_B0_S1_CCU2C_S1_6_COUT": {
           "hide_name": 0,
-          "bits": [ 120 ],
+          "bits": [ 114 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "src/div.sv:27.28-27.47|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/arith_map_ccu2c.v:74.7-80.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice\\ccu2c_sim.vh:9.9-9.13"
@@ -25468,7 +25500,7 @@
         },
         "u_bt.clk_0s25_CCU2C_B0_S1_CCU2C_S1_7_COUT": {
           "hide_name": 0,
-          "bits": [ 121 ],
+          "bits": [ 115 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "src/div.sv:27.28-27.47|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/arith_map_ccu2c.v:74.7-80.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice\\ccu2c_sim.vh:9.9-9.13"
@@ -25476,7 +25508,7 @@
         },
         "u_bt.clk_0s25_CCU2C_B0_S1_CCU2C_S1_8_COUT": {
           "hide_name": 0,
-          "bits": [ 122 ],
+          "bits": [ 116 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "src/div.sv:27.28-27.47|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/arith_map_ccu2c.v:74.7-80.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice\\ccu2c_sim.vh:9.9-9.13"
@@ -25484,7 +25516,7 @@
         },
         "u_bt.clk_0s25_CCU2C_B0_S1_CCU2C_S1_9_COUT": {
           "hide_name": 0,
-          "bits": [ 115 ],
+          "bits": [ 109 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "src/div.sv:27.28-27.47|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/arith_map_ccu2c.v:74.7-80.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice\\ccu2c_sim.vh:9.9-9.13"
@@ -25492,7 +25524,7 @@
         },
         "u_bt.clk_0s25_CCU2C_B0_S1_CCU2C_S1_COUT": {
           "hide_name": 0,
-          "bits": [ 112 ],
+          "bits": [ 106 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
             "src": "src/div.sv:27.28-27.47|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/arith_map_ccu2c.v:74.7-80.4|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice\\ccu2c_sim.vh:9.9-9.13"
@@ -25500,38 +25532,38 @@
         },
         "u_bt.clk_0s25_CCU2C_B0_S1_CCU2C_S1_S0": {
           "hide_name": 0,
-          "bits": [ 113 ],
+          "bits": [ 107 ],
           "attributes": {
             "unused_bits": "0 "
           }
         },
         "u_bt.counter": {
           "hide_name": 0,
-          "bits": [ 57, 54, 49, 47 ],
+          "bits": [ 51, 49, 43, 42 ],
           "attributes": {
             "hdlname": "u_bt counter",
-            "src": "src/button.sv:108.12-108.19"
+            "src": "src/button.sv:99.12-99.19"
           }
         },
         "u_bt.counter_TRELLIS_FF_Q_3_DI": {
           "hide_name": 0,
-          "bits": [ 123, 125, 126, 127 ],
+          "bits": [ 117, 119, 120, 121 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
-            "src": "src/button.sv:113.20-113.31|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/techmap.v:270.26-270.27"
+            "src": "src/button.sv:104.20-104.31|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/techmap.v:270.26-270.27"
           }
         },
         "u_bt.counter_TRELLIS_FF_Q_DI": {
           "hide_name": 0,
-          "bits": [ 123, 54, 49, 47 ],
+          "bits": [ 117, 49, 43, 42 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
-            "src": "src/button.sv:113.20-113.31|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/techmap.v:287.21-287.22"
+            "src": "src/button.sv:104.20-104.31|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/techmap.v:287.21-287.22"
           }
         },
         "u_bt.counter_TRELLIS_FF_Q_LSR": {
           "hide_name": 0,
-          "bits": [ 124 ],
+          "bits": [ 118 ],
           "attributes": {
           }
         },
@@ -25553,7 +25585,7 @@
         },
         "u_bt.duty_cycle": {
           "hide_name": 0,
-          "bits": [ 56, 55, 50, 48 ],
+          "bits": [ 50, 48, 44, 41 ],
           "attributes": {
             "hdlname": "u_bt duty_cycle",
             "src": "src/button.sv:9.23-9.33"
@@ -25561,49 +25593,65 @@
         },
         "u_bt.duty_cycle_TRELLIS_FF_Q_DI": {
           "hide_name": 0,
-          "bits": [ 131, 128, 130, 129 ],
+          "bits": [ 125, 122, 124, 123 ],
           "attributes": {
           }
         },
         "u_bt.duty_cycle_blue": {
           "hide_name": 0,
-          "bits": [ 39, 33, 32, 31 ],
+          "bits": [ 25, 27, 34, 30 ],
           "attributes": {
             "hdlname": "u_bt duty_cycle_blue",
             "src": "src/button.sv:30.12-30.27"
           }
         },
-        "u_bt.duty_cycle_blue_TRELLIS_FF_Q_2_DI": {
+        "u_bt.duty_cycle_blue_TRELLIS_FF_Q_3_DI": {
           "hide_name": 0,
-          "bits": [ 132, 134, 135, 136 ],
+          "bits": [ 127, 129, 130, 131 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
-            "src": "src/button.sv:59.44-59.63|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/techmap.v:270.26-270.27"
+            "src": "src/button.sv:62.44-62.63|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/techmap.v:270.26-270.27"
           }
         },
         "u_bt.duty_cycle_blue_TRELLIS_FF_Q_CE": {
           "hide_name": 0,
-          "bits": [ 35 ],
+          "bits": [ 30, 34, 27, 25, 126 ],
           "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:108.23-108.24"
           }
         },
         "u_bt.duty_cycle_blue_TRELLIS_FF_Q_DI": {
           "hide_name": 0,
-          "bits": [ 132, 33, 32, 31 ],
+          "bits": [ 127, 27, 34, 30 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
-            "src": "src/button.sv:59.44-59.63|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/techmap.v:287.21-287.22"
+            "src": "src/button.sv:62.44-62.63|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/techmap.v:287.21-287.22"
           }
         },
         "u_bt.duty_cycle_blue_TRELLIS_FF_Q_LSR": {
           "hide_name": 0,
+          "bits": [ 128 ],
+          "attributes": {
+          }
+        },
+        "u_bt.duty_cycle_blue_TRELLIS_FF_Q_LSR_PFUMX_Z_ALUT": {
+          "hide_name": 0,
           "bits": [ 133 ],
           "attributes": {
+            "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:133.22-133.24"
+          }
+        },
+        "u_bt.duty_cycle_blue_TRELLIS_FF_Q_LSR_PFUMX_Z_BLUT": {
+          "hide_name": 0,
+          "bits": [ 134 ],
+          "attributes": {
+            "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:133.18-133.20"
           }
         },
         "u_bt.duty_cycle_red": {
           "hide_name": 0,
-          "bits": [ 36, 27, 26, 25 ],
+          "bits": [ 24, 28, 33, 31 ],
           "attributes": {
             "hdlname": "u_bt duty_cycle_red",
             "src": "src/button.sv:29.12-29.26"
@@ -25611,39 +25659,63 @@
         },
         "u_bt.duty_cycle_red_TRELLIS_FF_Q_3_DI": {
           "hide_name": 0,
-          "bits": [ 141, 27, 26, 25 ],
+          "bits": [ 140, 28, 33, 31 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
-            "src": "src/button.sv:54.43-54.61|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/techmap.v:287.21-287.22"
+            "src": "src/button.sv:57.43-57.61|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/techmap.v:287.21-287.22"
           }
         },
         "u_bt.duty_cycle_red_TRELLIS_FF_Q_CE": {
           "hide_name": 0,
-          "bits": [ 30 ],
+          "bits": [ 31, 33, 28, 24, 135 ],
           "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:108.23-108.24"
+          }
+        },
+        "u_bt.duty_cycle_red_TRELLIS_FF_Q_CE_LUT4_Z_D": {
+          "hide_name": 0,
+          "bits": [ 36, 132 ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:108.23-108.24"
           }
         },
         "u_bt.duty_cycle_red_TRELLIS_FF_Q_DI": {
           "hide_name": 0,
-          "bits": [ 141, 137, 140, 139 ],
+          "bits": [ 140, 136, 139, 138 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
-            "src": "src/button.sv:54.43-54.61|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/techmap.v:270.26-270.27"
+            "src": "src/button.sv:57.43-57.61|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/techmap.v:270.26-270.27"
           }
         },
         "u_bt.duty_cycle_red_TRELLIS_FF_Q_LSR": {
           "hide_name": 0,
-          "bits": [ 138 ],
+          "bits": [ 137 ],
           "attributes": {
           }
         },
         "u_bt.duty_cycle_red_TRELLIS_FF_Q_LSR_LUT4_Z_D": {
           "hide_name": 0,
-          "bits": [ 37 ],
+          "bits": [ 141 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
             "single_bit_vector": "00000000000000000000000000000001",
             "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:108.23-108.24"
+          }
+        },
+        "u_bt.duty_cycle_red_TRELLIS_FF_Q_LSR_LUT4_Z_D_PFUMX_Z_ALUT": {
+          "hide_name": 0,
+          "bits": [ 142 ],
+          "attributes": {
+            "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:133.22-133.24"
+          }
+        },
+        "u_bt.duty_cycle_red_TRELLIS_FF_Q_LSR_LUT4_Z_D_PFUMX_Z_BLUT": {
+          "hide_name": 0,
+          "bits": [ 143 ],
+          "attributes": {
+            "src": "C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/lattice/cells_map_trellis.v:133.18-133.20"
           }
         },
         "u_bt.led": {
@@ -25664,7 +25736,7 @@
         },
         "u_bt.seg7": {
           "hide_name": 0,
-          "bits": [ 107, 106, 105, 104 ],
+          "bits": [ 101, 100, 99, 98 ],
           "attributes": {
             "hdlname": "u_bt seg7",
             "src": "src/button.sv:11.23-11.27"
@@ -25672,7 +25744,7 @@
         },
         "u_bt.state": {
           "hide_name": 0,
-          "bits": [ 18, 17, 16 ],
+          "bits": [ 22, 21, 20 ],
           "attributes": {
             "enum_type": "$enum0",
             "enum_value_000": "\\Start",
@@ -25689,7 +25761,7 @@
         },
         "u_bt.state2": {
           "hide_name": 0,
-          "bits": [ 23, 22, 21 ],
+          "bits": [ 18, 17, 16 ],
           "attributes": {
             "enum_type": "$enum1",
             "enum_value_000": "\\Start2",
@@ -25704,32 +25776,20 @@
             "wiretype": "\\state_b2"
           }
         },
-        "u_bt.state2_TRELLIS_FF_Q_CE": {
-          "hide_name": 0,
-          "bits": [ 24 ],
-          "attributes": {
-          }
-        },
         "u_bt.state2_TRELLIS_FF_Q_DI": {
           "hide_name": 0,
-          "bits": [ 143, 142, 144 ],
+          "bits": [ 145, 144, 146 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
-            "src": "src/button.sv:156.12-156.12|src/button.sv:129.5-161.12|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/techmap.v:583.21-583.22"
-          }
-        },
-        "u_bt.state_TRELLIS_FF_Q_CE": {
-          "hide_name": 0,
-          "bits": [ 20 ],
-          "attributes": {
+            "src": "src/button.sv:147.12-147.12|src/button.sv:120.5-152.12|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/techmap.v:583.21-583.22"
           }
         },
         "u_bt.state_TRELLIS_FF_Q_DI": {
           "hide_name": 0,
-          "bits": [ 146, 147, 145 ],
+          "bits": [ 148, 149, 147 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
-            "src": "src/button.sv:97.12-97.12|src/button.sv:36.5-102.12|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/techmap.v:583.21-583.22"
+            "src": "src/button.sv:77.12-77.12|src/button.sv:36.5-93.12|C:\\Users\\red93\\DOWNLO~1\\OSS-CA~1\\bin\\../share/yosys/techmap.v:583.21-583.22"
           }
         },
         "u_bt.u_clock_div.clk": {
@@ -25742,7 +25802,7 @@
         },
         "u_bt.u_clock_div.clk_0s25": {
           "hide_name": 0,
-          "bits": [ 108 ],
+          "bits": [ 102 ],
           "attributes": {
             "hdlname": "u_bt u_clock_div clk_0s25",
             "src": "src/div.sv:10.31-10.39"
@@ -25750,7 +25810,7 @@
         },
         "u_bt.u_clock_div.clk_div_counter": {
           "hide_name": 0,
-          "bits": [ 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 108, 210, "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x" ],
+          "bits": [ 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 102, 212, "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x" ],
           "attributes": {
             "hdlname": "u_bt u_clock_div clk_div_counter",
             "src": "src/div.sv:9.14-9.29",
@@ -25759,7 +25819,7 @@
         },
         "u_bt.u_clock_div.out": {
           "hide_name": 0,
-          "bits": [ 108 ],
+          "bits": [ 102 ],
           "attributes": {
             "hdlname": "u_bt u_clock_div out",
             "src": "src/div.sv:6.17-6.20"
@@ -25775,7 +25835,7 @@
         },
         "u_decoder.bcd": {
           "hide_name": 0,
-          "bits": [ 107, 106, 105, 104 ],
+          "bits": [ 101, 100, 99, 98 ],
           "attributes": {
             "hdlname": "u_decoder bcd",
             "src": "src/decoder.sv:4.22-4.25"
