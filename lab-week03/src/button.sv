@@ -19,11 +19,11 @@ state_b state = Start;
 typedef enum logic [2:0]{Start2, of_press2, of_release2, of_switch2, on_press2, on_release2, on_switch2} state_b2;
 state_b2 state2 = Start2;
 
-logic clk_0s25;
+logic clks_50ms;
 clock_dv u_clock_div(
     .clk(clk),
     .rst(rst),
-    .out(clk_0s25)
+    .out(clks_50ms)
 );
 
 logic[3:0] duty_cycle_red;
@@ -31,7 +31,7 @@ logic[3:0] duty_cycle_blue;
 
 assign dot = dip;
 
-always_ff @(posedge clk_0s25) begin
+always_ff @(posedge clks_50ms) begin
 
     case (state)
         Start: begin
@@ -52,17 +52,11 @@ always_ff @(posedge clk_0s25) begin
 
         on_switch: begin            
             state = of_press;
-            if (switch == 0) begin
-                    if (duty_cycle_red != 9)
-                        duty_cycle_red <= duty_cycle_red + 1;
-                    else
-                        duty_cycle_red <= 0;
-                end else begin
-                    if (duty_cycle_blue != 9)
-                        duty_cycle_blue <= duty_cycle_blue + 1;
-                    else
-                        duty_cycle_blue <= 0;
-                end
+            if (duty_cycle_red != 9)
+                duty_cycle_red <= duty_cycle_red + 1;
+            else
+                duty_cycle_red <= 0;
+            
         end
 
         of_press: begin
@@ -77,21 +71,13 @@ always_ff @(posedge clk_0s25) begin
         end
 
         of_switch: begin
-                state = on_press;
-                if (switch == 0) begin
-                    if (duty_cycle_red != 9)
-                        duty_cycle_red <= duty_cycle_red + 1;
-                    else
-                        duty_cycle_red <= 0;
-                end else begin
-                    if (duty_cycle_blue != 9)
-                        duty_cycle_blue <= duty_cycle_blue + 1;
-                    else
-                        duty_cycle_blue <= 0;
-                end
+            state = on_press;
+            if (duty_cycle_red != 9)
+                duty_cycle_red <= duty_cycle_red + 1;
+            else
+                duty_cycle_red <= 0;
         end
     endcase
-    duty_cycle <= (switch) ? duty_cycle_blue : duty_cycle_red;
     seg7 <= (dip) ? duty_cycle_blue : duty_cycle_red;
 
 end
@@ -105,18 +91,13 @@ always_ff @ (posedge clk) begin
 end
 
 always_comb begin
-    if (switch == 0) begin
-        led[0] = (counter < duty_cycle);
-        led[1] = 0;
-    end else begin
-        led[1] = (counter < duty_cycle);
-        led[0] = 0;
-    end
+    led[0] = (counter < duty_cycle_red);
+    led[1] = (counter < duty_cycle_blue);
 end
 
 logic switch;
 
-always_ff @(posedge clk_0s25) begin
+always_ff @(posedge clks_50ms) begin
     case (state2)
         Start2: begin
             state2 = of_press2;
@@ -134,6 +115,10 @@ always_ff @(posedge clk_0s25) begin
 
         on_switch2: begin            
             state2 = of_press2;
+            if (duty_cycle_blue != 9)
+                duty_cycle_blue <= duty_cycle_blue + 1;
+            else
+                duty_cycle_blue <= 0;
         end
 
         of_press2: begin
@@ -148,20 +133,11 @@ always_ff @(posedge clk_0s25) begin
 
         of_switch2: begin
                 state2 = on_press2;
+                if (duty_cycle_blue != 9)
+                    duty_cycle_blue <= duty_cycle_blue + 1;
+                else
+                    duty_cycle_blue <= 0;
         end
     endcase
-end
-
-always_comb begin
-    case (state2)
-        Start2: switch = 0;
-        of_press2: switch = 0;
-        of_release2: switch = 0;
-        of_switch2: switch = 1;
-        on_press2: switch = 1;
-        on_release2: switch = 1;
-        on_switch2: switch = 0;
-        default: switch = 0;
-    endcase 
 end
 endmodule
